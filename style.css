@@ -11,13 +11,14 @@
 body, *{
     margin: 0;
     padding: 0;
-    user-select: none;
   }
   body {
     background-color: black;
+    overflow-x: hidden;
   }
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
 nav.menu{
@@ -42,7 +43,11 @@ img.menu-logo {
     margin: 10px;
     filter: invert(1);
     position: absolute;
-    inset: 5px 0 10px 13px; 
+    inset: 5px 0 10px 13px;
+    transition: 0.1s ease-in
+}
+img.menu-logo:hover {
+    filter: invert(1) drop-shadow(0 0 5px white);
 }
 a.menu {
     font-family: 'Montserrat', sans-serif;
@@ -122,18 +127,33 @@ button.menu:hover {
     transform: scale(1.1);
     box-shadow: 0 0 10px white;
 }
-div.header::before {
+div.header::after {
     content: "";
     position: absolute;
     inset: 0;
     background: linear-gradient(
         rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.85),
+        rgba(0, 0, 0, 0.75),
         rgba(0, 0, 0, 1)
     );
     z-index: 0;
-
+    width: 102%;
+    height: 102%;
 }
+div.header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(vonal.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -10px;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    animation: liquidWaves 7s ease-in-out infinite;
+}
+
 div.header {
     position: relative;
     background-image: url("vonal.svg");
@@ -145,7 +165,18 @@ div.header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1.5rem;
+
 }
+
+@keyframes liquidWaves {
+  0%   { transform: scale(1) skew(0deg, 0deg) translate(0, 0); }
+  25%  { transform: scale(1.01) skew(-0.4deg, 0.3deg) translate(2px, -3px); }
+  50%  { transform: scale(1.015) skew(0.2deg, -0.3deg) translate(-2px, 2px); }
+  75%  { transform: scale(1.01) skew(-0.5deg, 0.4deg) translate(3px, -1px); }
+  100% { transform: scale(1) skew(0deg, 0deg) translate(0, 0); }
+}
+
 h1.header, p.header {
     position: relative;  
     z-index: 1;
@@ -167,11 +198,23 @@ p.header {
 div.content {
     color: white;
     width: 100%;
-    height: 30em;
+    height: 25em;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    position: relative;
+    background: black;
+    z-index: 1;
+}
+div.content::after {
+    content: "";
+    position: absolute;
+    top: -3em;
+    left: 0;
+    width: 102%;
+    height: 3em;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+    z-index: 2;
 }
 #content-1 {
     font-family: "Archivo Black", sans-serif;
@@ -191,19 +234,32 @@ div.inner-body::before {
     inset: 0;
     background: linear-gradient(
         rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.85),
+        rgba(0, 0, 0, 0.8),
         rgba(0, 0, 0, 1)
     );
-    z-index: 0;
+    z-index: 1;
+    width: 102%;
+    height: 100%;
 
 }
-div.inner-body {
-    background-image: url("vonal.svg");
-    position: relative;
+div.inner-body::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("vonal.svg");
     background-repeat: no-repeat;
-    background-position: center -20px;
     background-size: cover;
+    background-position: center -20px;
+    z-index: 0;
+    width: 102%;
+    height: 100%;
+    animation: liquidWaves 7s ease-in-out infinite;
+}
+div.inner-body {
+    position: relative;
     width: 100%;
+    z-index: 0;
+    overflow: hidden;
 }
 div.inner-body > * {
     position: relative;
@@ -216,33 +272,48 @@ div.egyuttmukodeseink {
 .egyuttmukodeseink h1 {
     font-size: calc(20px + 3vw);
 }
-/*.logo-roll::before {
+.logo-roll::before {
     content: "";
     position: absolute;
     inset: 0;
     background: linear-gradient(to right,
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 0.8)
+       rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.6) 5%,
+    rgba(0, 0, 0, 0.4) 10%,
+    rgba(0, 0, 0, 0.2) 15%,
+    rgba(0, 0, 0, 0.1) 20%,
+    rgba(0, 0, 0, 0) 25%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0.1) 80%,
+    rgba(0, 0, 0, 0.2) 85%,
+    rgba(0, 0, 0, 0.4) 90%,
+    rgba(0, 0, 0, 0.6) 95%,
+    rgba(0, 0, 0, 0.8) 100%
     );
     z-index: 1;
-}*/
+    pointer-events: none;
+}
 .logo-roll {
     position: relative;
-    margin: 15px 60px;
+    margin: /*15px 60px*/ 1vw 3vw;
     overflow: hidden;
     padding: 20px 0;
     height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 .logo-track {
     display: flex;
-    width: fit-content;
-    animation: scroll 20s linear infinite;
+    gap: 1rem;
+    will-change: transform;
 }
+
 .logo-track img {
     height: 12rem;
     margin: 0 30px;
     border-radius: 30px;
+    flex-shrink: 0;
     transition: transform 1s ease;
 }
 .logo-track:hover {
@@ -320,7 +391,7 @@ div.counter-box {
     height: 15rem;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 20px;
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.08);
     box-shadow: 0 0 60px rgba(255, 255, 255, 0.15);
     transition: transform 0.5s ease;
 }
@@ -337,6 +408,7 @@ div.counter-box {
 }
 .counter-box img {
     transform: scale(0.7);
+    filter: drop-shadow(0 0 5px #ffffff);
 }
 .counter-box:hover {
     transform: scale(1.1);
@@ -348,20 +420,16 @@ div.video-holder {
     margin: auto 2vw;
     margin-bottom: 10vh;
 }
-.video-content iframe {
-    width: 100%;
-    height: 60vh;
-    border-radius: 16px;
-    overflow: hidden;
-}
-.video-content {
+.video-holder iframe {
     display: block;
-    overflow: hidden;
-    backdrop-filter: blur(50px);
-    background-color: #030303;
-    width: 100%;
-    background-color: rgba(47, 47, 47, 0.4);
     border-radius: 20px;
+    box-shadow: 0 0 70px rgba(255, 255, 255, 0.5);
+    width: 288px;
+    height: 512px;
+    justify-self: center;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
 }
 #szolgaltatasok {
     display: flex;
@@ -551,7 +619,43 @@ img.footer-icon {
     transition: 0.4s ease;
 }
 img.footer-icon:hover {
-    box-shadow: 0 0 5px white;
+    filter: drop-shadow(0 0 3px white); 
 }
-
-
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 10%);
+    color: black;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: calc(10px + 2vw);
+    z-index: 1000;
+    height: 5%;
+    font-family: "Sf Pro Display", serif;
+    font-size: calc(10px + 0.5vw);
+}
+.cookie-banner button {
+    height: 100%;
+    width: 140px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 680;
+    font-size: 0.95rem; 
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    align-self: center;
+    transition: transform 0.5s ease;
+    text-align: center;
+    cursor: pointer;
+}
+.cookie-banner button:hover {
+    transform: scale(1.1);
+}
+.cookie-banner.hidden {
+    display: none;
+}
