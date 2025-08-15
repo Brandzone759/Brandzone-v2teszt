@@ -12,7 +12,7 @@ const observer = new IntersectionObserver( (entries, observer) => {
                 const target = +counter.getAttribute("data-target");
                 const c = current;
 
-                const increment = target / 250;
+                const increment = target / 150;
 
                 if ( c < target ) {
                     current += increment;
