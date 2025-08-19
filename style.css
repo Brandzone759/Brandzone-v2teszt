@@ -94,7 +94,7 @@ a.menu:hover, .mobile-menu a:hover {
     right: 180px;
 }
 .lang-select a {
-  display: inline-block; 
+  display: flex; 
   width: 2rem;          
   height: 100%;       
 }
@@ -112,7 +112,7 @@ a.menu:hover, .mobile-menu a:hover {
     overflow: visible;
 }
 .lang-hidden li {
-    padding-top: 0.5rem;    
+    padding-top: 0.8rem;    
 }
 .lang-element {
     display: block;
