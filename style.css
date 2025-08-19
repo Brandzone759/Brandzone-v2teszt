@@ -486,6 +486,11 @@ div.video-holder {
     margin-top: 10vh;
     margin-bottom: 10vh;
 }
+.banner-main-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 div.banner {
     color: white;
     position: relative;
@@ -504,6 +509,18 @@ div.banner-placeholder {
     background-color: rgba(255, 255, 255, 0.08);
     box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
 }
+#main-banner-h2 {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+.banner-text.main {
+    display: flex;
+    flex-direction: column;
+}
+.banner-text.half {
+    width: 60%;
+}
 .banner-placeholder h2 {
     font-family: "Archivo Black", sans-serif;
     padding: 2rem 0;
@@ -517,6 +534,10 @@ ul {
     list-style-type: none;
     font-family: "Cabin", sans-serif;
 }
+ul.w-inverted-icons img {
+    filter: invert();
+}
+
 .banner-placeholder li img {
     width: 1rem;
 }
@@ -528,6 +549,10 @@ ul {
     width: 85%;
     min-width: 300px;
     max-width: 500px;
+}
+.banner-img {
+    display: flex;
+    align-items:end;
 }
 div.form-holder {
     color: white;

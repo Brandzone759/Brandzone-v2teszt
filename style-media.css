@@ -145,3 +145,24 @@
         transform: scale(0.8);
     }
 }
+@media screen and (max-width: 1186px) {
+    .banner-text.half {
+    width: 80%;
+}
+}
+@media screen and (max-width: 1190px) {
+    div.banner-placeholder {
+        flex-direction: column;
+    }
+    div.banner-img {
+        display: flex;
+        padding-left: 0;
+        align-self: center;
+    }
+    div.banner-img img {
+        padding: 0;
+    }
+     .banner-text.half {
+    width: 100%;
+}
+}
