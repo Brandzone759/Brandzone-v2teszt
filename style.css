@@ -89,6 +89,52 @@ a.menu:hover, .mobile-menu a:hover {
     text-decoration: none;
     color: black;
 }
+.lang-block {
+    position: absolute;
+    right: 180px;
+}
+.lang-select a {
+  display: inline-block; 
+  width: 2rem;          
+  height: 100%;       
+}
+.lang-select a img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+.lang-select {
+    margin-top: 0.8rem;
+    background-color: rgb(26 26 26);
+    padding: 0.5rem;
+    border-radius: 10px;
+    overflow: visible;
+}
+.lang-hidden li {
+    padding-top: 0.5rem;    
+}
+.lang-element {
+    display: block;
+    position: relative;
+    z-index: 1;
+    will-change: filter;
+    transition: filter 0.2s ease-in-out;
+}
+.lang-element:hover {
+    filter: drop-shadow(0 0 3px white);
+    z-index: 1000;
+}
+.lang-hidden {
+    display: none;
+}
+.lang-current:hover ~ .lang-hidden {
+  display: block;
+}
+.lang-hidden:hover ~ .lang-hidden, .lang-hidden:hover {
+    display: block;
+}
+
 button.hamburger {
     display: none;
     position: absolute;

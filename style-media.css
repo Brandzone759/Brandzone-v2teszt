@@ -27,6 +27,9 @@
     div.banner-img img {
         padding: 0;
     }
+    .lang-block {
+        right: 60px;
+    }
     a.menu {
         display: none;
     }
@@ -132,4 +135,13 @@
   .logo-roll::before {
     background: transparent;
   }
+}
+@media screen and (max-width: 385px) {
+    .lang-element {
+        transform: scale(0.8);
+        padding: 0;
+    }
+    .a-menu-button {
+        transform: scale(0.8);
+    }
 }
