@@ -398,6 +398,12 @@ div.csapat {
     text-align: center;
     padding: 0.2rem;
 }
+.team-member a {
+    transition: transform 0.1s ease-in-out;
+}
+.team-member a:hover {
+    transform: scale(1.03);
+}
 div.team-member {
     height: 65%;
     padding: 1rem;
