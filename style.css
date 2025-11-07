@@ -388,10 +388,11 @@ div.csapat {
     margin-bottom: 100px;
 }
 .team-holder {
-    height: 40rem;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 5rem;
 }
 .team-member h3, .team-member p {
     color: white;
@@ -407,6 +408,7 @@ div.csapat {
 div.team-member {
     height: 65%;
     padding: 1rem;
+    margin: 1rem;
     border-radius: 20px;
     background-color: rgb(26 26 26);
     box-shadow: 0 0 60px rgba(255, 255, 255, 0.4);
