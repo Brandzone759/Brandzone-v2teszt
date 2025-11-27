@@ -654,6 +654,22 @@ p.desc {
 }
 .form textarea {
     height: auto;
+    resize: none;
+}
+#cb-policy {
+    width: 20px;
+    margin-top: 1rem;
+}
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.checkbox-wrapper label a {
+    color: white;
+}
+.checkbox-wrapper label a:hover {
+    text-decoration: none;
 }
 .form input[type="submit"] {
     background-color: white;
@@ -673,6 +689,7 @@ div#submit-button {
 .form input[type="submit"]:hover {
     border: 1px solid black;
     background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
 }
 div.footer {
     width: 100%;
