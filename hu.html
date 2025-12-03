@@ -324,41 +324,6 @@
         <button id="accept-cookies">Elfogadom</button>
     </div>
     <script>
-        const form = document.getElementById('request-form');
-      
-        form.addEventListener('submit', async (e) => {
-          e.preventDefault();
-      
-          const data = {
-            name: form.name.value,
-            company: form.company.value,
-            email: form.email.value,
-            phone: form.phone.value,
-            note: form.note.value,
-          };
-      
-          try {
-            const response = await fetch('/.netlify/functions/send-request', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify(data),
-            });
-      
-            const result = await response.json();
-      
-            if (response.ok) {
-              alert(result.message || 'Sikeresen elküldtük az árajánlatkérést!');
-              form.reset();
-            } else {
-              alert(result.error || 'Hiba történt az üzenet küldésekor.');
-            }
-          } catch (error) {
-            alert('Hálózati hiba, próbáld később.');
-            console.error(error);
-          }
-        });
-      </script>
-    <script>
         function toggleMobileMenu() {
           const menu = document.getElementById("mobile-menu");
           const links = menu.querySelectorAll("a");
