@@ -300,7 +300,7 @@ De la planificarea completă a campaniei și strategia creativă, până la prod
                         </div>  
                     </div>
                 </div>
-                <form id="request-form">
+                <form id="request-form" name="form-ro" method="POST" netlify>
                     <label for="name">Nume și Prenume:*</label> <br>
                         <input type="text" name="name" placeholder="Nume și prenume" required> <br>
                     <label for="company">Nume companie:*</label> <br>
@@ -340,57 +340,7 @@ De la planificarea completă a campaniei și strategia creativă, până la prod
         <span>Acest site utilizează cookie-uri pentru o experiență mai bună a utilizatorului</span>
         <button id="accept-cookies">Accept</button>
     </div>
-    <script>
-        const form = document.getElementById('request-form');
-      
-        form.addEventListener('submit', async (e) => {
-          e.preventDefault();
-      
-          const data = {
-            name: form.name.value,
-            company: form.company.value,
-            email: form.email.value,
-            phone: form.phone.value,
-            note: form.note.value,
-          };
-      
-          try {
-            const response = await fetch('/.netlify/functions/send-request', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify(data),
-            });
-      
-            const result = await response.json();
-      
-            if (response.ok) {
-              alert(result.message || 'Cererea de ofertă a fost trimisă cu succes!');
-              form.reset();
-            } else {
-              alert(result.error || 'A apărut o eroare la trimiterea mesajului.');
-            }
-          } catch (error) {
-            alert('Eroare de rețea, încearcă mai târziu.');
-            console.error(error);
-          }
-        });
-      </script>
-    <script>
-        function toggleMobileMenu() {
-          const menu = document.getElementById("mobile-menu");
-          const links = menu.querySelectorAll("a");
-      
-          menu.classList.toggle("show");
-          links.forEach(link => {
-            link.classList.toggle("show");
-            
-            link.addEventListener("click", () => {
-              menu.classList.remove("show");
-              links.forEach(l => l.classList.remove("show"));
-            });
-          });
-        }
-      </script>
+    
       <script>
         const track = document.getElementById("logoTrack");
         let pos = 0;
