@@ -8,10 +8,10 @@
     font-weight: normal;
     font-style: normal;
 }
-body, *{
+body, * {
     margin: 0;
     padding: 0;
-  }
+}
   body {
     background-color: black;
     overflow-x: hidden;
@@ -19,6 +19,7 @@ body, *{
   html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    overflow-y: scroll;
   }
 
 nav.menu{
@@ -35,7 +36,7 @@ nav.menu{
     left: 0;
     z-index: 1000;
 }
-#arajanlat, #rolunk, #referenciak, #szolgaltatasok {
+#arajanlat, #rolunk, #referenciak, #szolgaltatasok, #faq-title {
     scroll-margin-top: 75px;
 }
 img.menu-logo {
@@ -176,13 +177,13 @@ button.menu:hover {
 div.header::after {
     content: "";
     position: absolute;
-    inset: 0;
+    top: 0; left: 0;
     background: linear-gradient(
         rgba(0, 0, 0, 1),
         rgba(0, 0, 0, 0.75),
         rgba(0, 0, 0, 1)
     );
-    z-index: 0;
+    z-index: 1;
     width: 102%;
     height: 102%;
 }
@@ -202,7 +203,6 @@ div.header::before {
 
 div.header {
     position: relative;
-    background-image: url("vonal.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center -10px;
@@ -211,8 +211,9 @@ div.header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1.5rem;
-
+    overflow: hidden;
+    background-color: black;
+    z-index: 3;
 }
 
 @keyframes liquidWaves {
@@ -225,7 +226,7 @@ div.header {
 
 h1.header, p.header {
     position: relative;  
-    z-index: 1;
+    z-index: 2;
     color: white;
 }
 h1.header {
@@ -290,15 +291,17 @@ div.inner-body::before {
 }
 div.inner-body::after {
     content: "";
-    position: absolute;
-    inset: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     background: url("vonal.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center -20px;
+    background-position: center;
     z-index: -1;
-    width: 102%;
-    height: 99%;
+    pointer-events: none;
     animation: liquidWaves 7s ease-in-out infinite;
 }
 div.inner-body {
@@ -344,41 +347,26 @@ div.egyuttmukodeseink {
 }
 .logo-roll {
     position: relative;
-    margin: /*15px 60px*/ 1vw 3vw;
-    overflow: hidden;
+    margin: /*15px 60px*/ 4vw 3vw;
     padding: 20px 0;
-    height: 20rem;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .logo-track {
     display: flex;
-    gap: 1rem;
-    will-change: transform;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
 .logo-track img {
-    height: 12rem;
-    margin: 0 30px;
+    height: 7rem;
+    margin: 18px 30px;
     border-radius: 30px;
-    flex-shrink: 0;
     transition: transform 1s ease;
-}
-.logo-track:hover {
-    animation-play-state: paused;
 }
 .logo-track img:hover {
     transform: scale(1.1);
     box-shadow: 0 0 10px white;
-}
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
 }
 div.csapat {
     display: flex;
@@ -477,18 +465,75 @@ div.video-holder {
     margin: auto 2vw;
     margin-bottom: 10vh;
 }
-.video-holder iframe {
-    display: block;
+.video-item {
+    position: relative;
+    justify-self: center;
+    transform: translateZ(0);
     border-radius: 20px;
-    box-shadow: 0 0 70px rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
     width: 288px;
     height: 512px;
+    box-shadow: 0 0 70px rgba(255, 255, 255, 0.5);
+}
+.video-logo-and-name {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+.video-item.playing .video-logo-and-name {
+    opacity: 0;
+    pointer-events: none;
+}
+.video-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+.video-partner {
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+    color: white;
+    background: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: calc(10px + 0.3vw);
+}
+.video-holder video {
+    display: block;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    transform: none;
     justify-self: center;
     align-self: center;
-    background-color: rgba(255, 255, 255, 0);
     border: none;
+    object-fit: cover;
+    cursor: pointer;
 }
-#szolgaltatasok {
+body.is-safari .video-holder video {
+    width: 360px !important;
+    height: 640px !important;
+    transform: scale(0.8) !important;
+    transform-origin: top left !important;
+    --webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+body.is-safari .video-logo-and-name {
+    backdrop-filter: blur(30px);
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0.5rem;
+}
+#szolgaltatasok, #faq-title {
     display: flex;
     justify-content: center;
     margin-top: 10vh;
@@ -561,6 +606,75 @@ ul.w-inverted-icons img {
 .banner-img {
     display: flex;
     align-items:end;
+}
+#faq-container {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    border-radius: 15px;
+}
+.faq-question {
+    width: 100%;
+    margin: 1rem auto;
+    margin-bottom: 0;
+    border-radius: 12px;
+    border: none;
+    min-height: 4rem;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.113);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    color: white;
+    font-family: "Cabin", sans-serif;
+    font-size: calc(12px + 0.3vw);
+    text-align: left;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    transition: background-color 0.15s ease-in-out;
+}
+.faq-element.active .faq-question, .faq-question:hover {
+    background-color: rgba(255, 255, 255, 0.253);
+    cursor: pointer;
+}   
+.faq-element.active .faq-question {
+    border-radius: 12px 12px 0 0;
+}
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 0;
+    width: calc(100% - 3rem);
+    border-radius: 0 0 12px 12px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.113);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Cabin", sans-serif;
+    font-size: calc(12px + 0.3vw);
+    text-align: left;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+.faq-answer ul {
+    list-style-type: disc; 
+    padding-left: 20px;    
+    margin-top: 10px;      
+    margin-bottom: 10px;
+}
+
+.faq-answer li {
+    margin-bottom: 5px;    
+    padding-left: 5px;     
+}
+.faq-element.active .faq-answer {
+    opacity: 1;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 div.form-holder {
     color: white;
