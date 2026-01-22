@@ -773,6 +773,7 @@ p.desc {
 #cb-policy {
     width: 20px;
     margin-top: 1rem;
+    accent-color: black;
 }
 .checkbox-wrapper {
     display: flex;
