@@ -507,32 +507,25 @@ div.video-holder {
     border-radius: 10px;
     font-size: calc(10px + 0.3vw);
 }
-.video-holder video {
+.video-holder iframe {
     display: block;
     border-radius: 20px;
-    width: 100%;
-    height: 100%;
-    transform: none;
+    width: 288px !important;
+    height: 512px !important;
+    --webkit-mask-image: -webkit-radial-gradient(white, black);
     justify-self: center;
     align-self: center;
     border: none;
     object-fit: cover;
     cursor: pointer;
 }
-body.is-safari .video-holder video {
-    width: 360px !important;
-    height: 640px !important;
-    transform: scale(0.8) !important;
-    transform-origin: top left !important;
-    --webkit-mask-image: -webkit-radial-gradient(white, black);
-}
-body.is-safari .video-logo-and-name {
+/*body.is-safari .video-logo-and-name {
     backdrop-filter: blur(30px);
     width: 100%;
     top: 0;
     left: 0;
     padding: 0.5rem;
-}
+}*/
 #szolgaltatasok, #faq-title {
     display: flex;
     justify-content: center;

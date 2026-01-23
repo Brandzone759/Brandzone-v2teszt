@@ -1,10 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     loadData();
     videoObserver();
-    const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-    if (isSafari) {
-        document.body.classList.add('is-safari');
-}
 });
 
 async function loadData() {
@@ -74,8 +70,8 @@ function displayVideos(videos) {
     if (!container) return;
     if (!videos) return;
 
+    const bunnyLibraryId = "585259";
     const videosHTML = videos.map(video => {
-        let posterUrl = video.src.replace(/\.[^/.]+$/, ".jpg");
     
         return `
         <div class="video-item">
@@ -83,16 +79,15 @@ function displayVideos(videos) {
                 <img class="video-logo" src="${video.logo}" alt="Partner logo">
                 <span class="video-partner">${video.title}</span>
             </div>
-            <video 
-                src="${video.src}" 
-                poster="${posterUrl}"
-                title="${video.title}" 
-                class="video-element" 
-                controls
-                preload="metadata" 
-                playsinline 
-                loading="lazy">
-            </video>
+            <div class="iframe-wrapper" style="position:relative; padding-top:56.25%;">
+                <iframe 
+                    src="https://iframe.mediadelivery.net/embed/${bunnyLibraryId}/${video.bunnyVideoId}?autoplay=false&preload=false" 
+                    loading="lazy" 
+                    style="border:0; position:absolute; top:0; height:100%; width:100%;" 
+                    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" 
+                    allowfullscreen="true">
+                </iframe>
+            </div>
         </div>
     `;
     }).join('');

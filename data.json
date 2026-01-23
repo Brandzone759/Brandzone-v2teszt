@@ -31,15 +31,14 @@
                 "followers": "KÖVETŐ"
             },
             "videos": [
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768669335/1._HU_Munkag%C3%A9pek_h%C3%A1ttere_oioq5x.mp4", "title": "SIK GROUP", "logo":"./partner-logos/sik_group.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768669421/2._A_titokzatos_l%C3%A1ny_-_1._R%C3%A9sz_1_q6o3yg.mp4", "title": "PERFEKT", "logo":"/partner-logos/perfekt.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768669395/3._Szerszamgepek_1_hdiyg7.mp4", "title": "TAPERKI", "logo":"/partner-logos/taperki.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768669437/4._Mester_Lor%C3%A1nd_-_Nefrol%C3%B3gus_9.16_1_u6ue4h.mp4", "title": "VITALITY KLINIKA", "logo":"/partner-logos/vitality.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768669424/5._Story_1_1_jrsqbj.mp4", "title": "KIDLET", "logo":"/partner-logos/kidlet.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768669366/6._Parajd_nyitva_van__1_ylklfp.mp4", "title": "VISIT PARAJD", "logo":"/partner-logos/visit_parajd.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768669476/iKamper_2.resz_1_zuthsh.mp4", "title": "IKAMPER", "logo":"/partner-logos/ikamper.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768669503/8._Hu_Simion_1_ticz3q.mp4", "title": "MINI HOME", "logo":"/partner-logos/minihome.webp"}
-                
+                {"title": "SIK GROUP", "bunnyVideoId": "8dc68a7c-7944-4c78-83f6-5599f908ce1e", "logo": "./partner-logos/sik_group.jpg"},  
+                {"title": "PERFEKT", "bunnyVideoId": "3d2f0ec7-bb40-4c49-b6c6-225e7f038fd0", "logo": "./partner-logos/perfekt.jpg"},  
+                {"title": "TAPERKI", "bunnyVideoId": "6d2c7035-4e56-45c8-8c00-49ecae2eca0a", "logo": "./partner-logos/taperki.jpg"},  
+                {"title": "VITALITY KLINIKA", "bunnyVideoId": "f76f1aed-9891-4015-842e-427c507f7570", "logo": "./partner-logos/vitality.jpg"},  
+                {"title": "KIDLET", "bunnyVideoId": "4a85b30a-ece3-474b-91c8-86d641141ac5", "logo": "./partner-logos/kidlet.jpg"},  
+                {"title": "VISIT PARAJD", "bunnyVideoId": "96b6ebf1-3d3e-4b70-afe2-be0be2637322", "logo": "./partner-logos/visit_parajd.jpg"},  
+                {"title": "IKAMPER", "bunnyVideoId": "c14db54e-6e64-4b70-86cd-32f1970de974", "logo": "./partner-logos/ikamper.jpg"},  
+                {"title": "MINI HOME", "bunnyVideoId": "f3d3833c-1c1a-44f3-97e5-7fbfb70628f3", "logo": "./partner-logos/minihome.WEBP"}  
             ],
             "faq": [
                 {"question": "Hogyan zajlik veletek a közös munka?", "answer": "A közös munka egy átgondolt, átlátható folyamat mentén halad:<ul><li>Megismerjük a cégedet, céljaidat és a piacodat</li><li>Kidolgozzuk a videós stratégiát és tartalmi irányokat</li><li>Igény esetén a megfelelő szereplőt biztosítunk</li><li>Megírjuk a forgatókönyveket</li><li>Leforgatjuk és megvágjuk a videókat</li><li>Segítünk a publikálásban és az optimalizálásban</li></ul>Mindent kézben tartunk, hogy neked minél kevesebb időt kelljen ezzel töltened."},
@@ -74,14 +73,14 @@
                 "followers": "URMĂRITORI"
             },
             "videos": [
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768832480/1._OLDER_MAN_REVOLUT_wfylbf.mp4", "title": "REVOLUT", "logo": "./partner-logos/revolut.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768832605/2._FLIXBUS_x_DIVERZUM_g24cjt.mp4", "title": "DIVERZUM", "logo": "./partner-logos/diverzum.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768832610/3._RO_FOR%C8%9AA_DIN_SPATELE_UTILAJELOR_1_ezyf6y.mp4", "title": "SIK GROUP", "logo": "./partner-logos/sik_group.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768832828/4._C%C3%82T_CHELTUI%C8%98TI_PE_LUN%C4%82-_-_Public_1_wqvd94.mp4", "title": "DIVERZUM", "logo": "./partner-logos/diverzum.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768832679/5._Grill_tipuri_1_uqmuws.mp4", "title": "MIKLOS STEEL", "logo": "./partner-logos/miklos_steel.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768832686/6._Ro_Simion_1_fmnub9.mp4", "title": "MINI HOME", "logo": "./partner-logos/minihome.WEBP"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768832845/7._GIVEAWAY_500_RON_hoqeya.mp4", "title": "KIDLET", "logo": "./partner-logos/kidlet.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768833922/8._Ludicus_Games_2_s0euox.mov", "title": "LUDICUS GAMES", "logo": "./partner-logos/ludicus.jpg"}
+                {"bunnyVideoId": "3fd21445-fce4-4783-b05e-7133c647b5a3", "title": "REVOLUT", "logo": "./partner-logos/revolut.jpg"},
+                {"bunnyVideoId": "f39f2535-33f2-40df-b46a-22e9f56b652a", "title": "DIVERZUM", "logo": "./partner-logos/diverzum.jpg"},
+                {"bunnyVideoId": "73fba227-9b65-4d82-9ae1-2243e346ffb0", "title": "SIK GROUP", "logo": "./partner-logos/sik_group.jpg"},
+                {"bunnyVideoId": "9c1bf81e-2477-44b2-bc7e-1e5ca53d1602", "title": "DIVERZUM", "logo": "./partner-logos/diverzum.jpg"},
+                {"bunnyVideoId": "9bdaa3df-94b4-4f3c-8dd9-41a4d21509a8", "title": "MIKLOS STEEL", "logo": "./partner-logos/miklos_steel.jpg"},
+                {"bunnyVideoId": "6880c089-484e-427b-8b20-e21ee0cae7d5", "title": "MINI HOME", "logo": "./partner-logos/minihome.WEBP"},
+                {"bunnyVideoId": "b56fd487-c58d-49a8-8626-11a4a3f5097d", "title": "KIDLET", "logo": "./partner-logos/kidlet.jpg"},
+                {"bunnyVideoId": "4369c974-ab52-4dd9-846b-ab0f1d877c7f", "title": "LUDICUS GAMES", "logo": "./partner-logos/ludicus.jpg"}
             ],
             "faq": [
                 {"question": "Cum decurge colaborarea cu noi?", "answer": "Colaborarea se desfășoară pe baza unui proces bine structurat și transparent:<ul><li>Ne familiarizăm cu compania ta, obiectivele și piața în care activezi</li><li>Dezvoltăm strategia video și direcțiile de conținut</li><li>La nevoie, asigurăm actorii sau persoanele potrivite pentru filmări</li><li>Scriem scenariile</li><li>Filmăm și edităm materialele video</li><li>Oferim suport pentru publicare și optimizare</li></ul><br>Ne ocupăm de întregul proces, astfel încât tu să investești cât mai puțin timp în acest lucru."},
@@ -116,14 +115,14 @@
                 "followers": "FOLLOWERS"
             },
             "videos": [
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768832480/1._OLDER_MAN_REVOLUT_wfylbf.mp4", "title": "REVOLUT", "logo": "./partner-logos/revolut.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768832605/2._FLIXBUS_x_DIVERZUM_g24cjt.mp4", "title": "DIVERZUM", "logo": "./partner-logos/diverzum.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768832610/3._RO_FOR%C8%9AA_DIN_SPATELE_UTILAJELOR_1_ezyf6y.mp4", "title": "SIK GROUP", "logo": "./partner-logos/sik_group.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768832828/4._C%C3%82T_CHELTUI%C8%98TI_PE_LUN%C4%82-_-_Public_1_wqvd94.mp4", "title": "DIVERZUM", "logo": "./partner-logos/diverzum.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768832679/5._Grill_tipuri_1_uqmuws.mp4", "title": "MIKLOS STEEL", "logo": "./partner-logos/miklos_steel.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768832686/6._Ro_Simion_1_fmnub9.mp4", "title": "MINI HOME", "logo": "./partner-logos/minihome.WEBP"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768832845/7._GIVEAWAY_500_RON_hoqeya.mp4", "title": "KIDLET", "logo": "./partner-logos/kidlet.jpg"},
-                {"src": "https://res.cloudinary.com/dsqefjetu/video/upload/v1768833922/8._Ludicus_Games_2_s0euox.mov", "title": "LUDICUS GAMES", "logo": "./partner-logos/ludicus.jpg"}
+                {"bunnyVideoId": "3fd21445-fce4-4783-b05e-7133c647b5a3", "title": "REVOLUT", "logo": "./partner-logos/revolut.jpg"},
+                {"bunnyVideoId": "f39f2535-33f2-40df-b46a-22e9f56b652a", "title": "DIVERZUM", "logo": "./partner-logos/diverzum.jpg"},
+                {"bunnyVideoId": "73fba227-9b65-4d82-9ae1-2243e346ffb0", "title": "SIK GROUP", "logo": "./partner-logos/sik_group.jpg"},
+                {"bunnyVideoId": "9c1bf81e-2477-44b2-bc7e-1e5ca53d1602", "title": "DIVERZUM", "logo": "./partner-logos/diverzum.jpg"},
+                {"bunnyVideoId": "9bdaa3df-94b4-4f3c-8dd9-41a4d21509a8", "title": "MIKLOS STEEL", "logo": "./partner-logos/miklos_steel.jpg"},
+                {"bunnyVideoId": "6880c089-484e-427b-8b20-e21ee0cae7d5", "title": "MINI HOME", "logo": "./partner-logos/minihome.WEBP"},
+                {"bunnyVideoId": "b56fd487-c58d-49a8-8626-11a4a3f5097d", "title": "KIDLET", "logo": "./partner-logos/kidlet.jpg"},
+                {"bunnyVideoId": "4369c974-ab52-4dd9-846b-ab0f1d877c7f", "title": "LUDICUS GAMES", "logo": "./partner-logos/ludicus.jpg"}
             ],
             "faq": [
                 {"question": "How does working with you look like?", "answer": "Our collaboration follows a well-structured and transparent process:<ul><li>We get to know your company, goals, and market</li><li>We develop the video strategy and content directions</li><li>If needed, we provide suitable actors or on-screen talent</li><li>We write the scripts</li><li>We handle filming and editing</li><li>We assist with publishing and optimization</li></ul><br>We manage the entire process so you can spend as little time on it as possible."},
