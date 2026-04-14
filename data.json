@@ -3,20 +3,20 @@
     "counters": [
       {
         "id": "videos",
-        "count": 1000,
-        "display": "1000",
+        "count": 2000,
+        "display": "2000",
         "icon": "counter/camera.png"
       },
       {
         "id": "views",
-        "count": 70000000,
-        "display": "70&nbsp;000&nbsp;000",
+        "count": 100000000,
+        "display": "100&nbsp;000&nbsp;000",
         "icon": "counter/visible.png"
       },
       {
         "id": "followers",
-        "count": 150000,
-        "display": "150&nbsp;000",
+        "count": 200000,
+        "display": "200&nbsp;000",
         "icon": "counter/user.png"
       }
     ]
