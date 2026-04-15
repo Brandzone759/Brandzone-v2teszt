@@ -274,6 +274,26 @@
           "logo": "./partner-logos/revolut.jpg"
         },
         {
+          "bunnyVideoId": "bf365b64-a774-4a64-8624-6e55ba9f1075",
+          "title": "DACIA",
+          "logo": "partner-logos/1776243623257_dacia.jpg"
+        },
+        {
+          "bunnyVideoId": "cce3b29e-6328-4747-b84c-119051b39c9d",
+          "title": "PETRY ESTATE WINERY",
+          "logo": "partner-logos/1776243625196_logo2.jpg"
+        },
+        {
+          "bunnyVideoId": "4f3869e2-e010-4fe5-96ed-6b6297dec0cc",
+          "title": "APLUX",
+          "logo": "partner-logos/1776243626019_aplux.png"
+        },
+        {
+          "bunnyVideoId": "2bd0c22d-2ef8-4da1-a0a7-6edc69daa297",
+          "title": "NOVA STUDIO",
+          "logo": "partner-logos/1776243627117_336366392_530645649248889_730510647955968220_n.jpg"
+        },
+        {
           "bunnyVideoId": "24e8d114-4635-4f1a-9d87-8631945cd4fd",
           "title": "MELINDA INSTAL",
           "logo": "partner-logos/1776179648288_540873869_758503246931678_6565289129599768331_n_2.jpg"
@@ -287,26 +307,6 @@
           "bunnyVideoId": "9c1bf81e-2477-44b2-bc7e-1e5ca53d1602",
           "title": "DIVERZUM",
           "logo": "./partner-logos/diverzum.jpg"
-        },
-        {
-          "bunnyVideoId": "9bdaa3df-94b4-4f3c-8dd9-41a4d21509a8",
-          "title": "MIKLOS STEEL",
-          "logo": "./partner-logos/miklos_steel.jpg"
-        },
-        {
-          "bunnyVideoId": "6880c089-484e-427b-8b20-e21ee0cae7d5",
-          "title": "MINI HOME",
-          "logo": "./partner-logos/minihome.WEBP"
-        },
-        {
-          "bunnyVideoId": "b56fd487-c58d-49a8-8626-11a4a3f5097d",
-          "title": "KIDLET",
-          "logo": "./partner-logos/kidlet.jpg"
-        },
-        {
-          "bunnyVideoId": "4369c974-ab52-4dd9-846b-ab0f1d877c7f",
-          "title": "LUDICUS GAMES",
-          "logo": "./partner-logos/ludicus.jpg"
         }
       ],
       "faq": [
