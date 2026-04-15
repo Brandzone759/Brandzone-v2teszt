@@ -40,9 +40,14 @@
           "alt": "Revolut logo"
         },
         {
-          "url": "https://www.tiktok.com/@kidlet.ro_erdely_",
-          "img": "partner-logos/kidlet.jpg",
-          "alt": "Kidlet logo"
+          "img": "partner-logos/1776242549068_1776242471512_dacia.jpg",
+          "url": "https://www.tiktok.com/@ilovedacia",
+          "alt": "Partner"
+        },
+        {
+          "img": "partner-logos/1776242550497_1776242444791_logo2.jpg",
+          "url": "https://www.instagram.com/poetbypetry/",
+          "alt": "Partner"
         },
         {
           "img": "partner-logos/1776179258793_1776179254351_540873869_758503246931678_6565289129599768331_n_2.jpg",
@@ -50,14 +55,14 @@
           "alt": "Partner"
         },
         {
-          "url": "https://www.tiktok.com/@diverzum.ro",
-          "img": "partner-logos/diverzum.jpg",
-          "alt": "Diverzum logo"
+          "img": "partner-logos/1776242551313_1776242524911_Scut.jpg",
+          "url": "https://www.facebook.com/scutmetalic",
+          "alt": "Partner"
         },
         {
-          "url": "https://www.tiktok.com/@_taperki_",
-          "img": "partner-logos/taperki.jpg",
-          "alt": "Taperki logo"
+          "url": "https://www.tiktok.com/@kidlet.ro_erdely_",
+          "img": "partner-logos/kidlet.jpg",
+          "alt": "Kidlet logo"
         },
         {
           "url": "https://www.tiktok.com/@ikamper.hu",
@@ -75,19 +80,14 @@
           "alt": "MIERT logo"
         },
         {
-          "url": "https://www.tiktok.com/@escapegarden2021",
-          "img": "partner-logos/escape.jpg",
-          "alt": "Escape Garden logo"
+          "url": "https://www.tiktok.com/@diverzum.ro",
+          "img": "partner-logos/diverzum.jpg",
+          "alt": "Diverzum logo"
         },
         {
           "url": "https://www.tiktok.com/@sik.group",
           "img": "partner-logos/sik_group.jpg",
           "alt": "SIK Group logo"
-        },
-        {
-          "img": "partner-logos/1776179902920_1776179898530_MINI_HOME.png",
-          "url": "https://www.tiktok.com/@minihometransylvania_hu",
-          "alt": "Partner"
         },
         {
           "url": "https://www.facebook.com/vitalityklinika",
@@ -103,11 +103,6 @@
           "url": "https://www.tiktok.com/@miklos.steel",
           "img": "partner-logos/miklos_steel.jpg",
           "alt": "Miklos Steel logo"
-        },
-        {
-          "img": "partner-logos/1776242424909_1776242238520_Scut.jpg",
-          "url": "https://www.facebook.com/scutmetalic",
-          "alt": "Partner"
         }
       ],
       "counterTexts": {
