@@ -103,6 +103,11 @@
           "url": "https://www.tiktok.com/@miklos.steel",
           "img": "partner-logos/miklos_steel.jpg",
           "alt": "Miklos Steel logo"
+        },
+        {
+          "img": "partner-logos/1776242424909_1776242238520_Scut.jpg",
+          "url": "https://www.facebook.com/scutmetalic",
+          "alt": "Partner"
         }
       ],
       "counterTexts": {
@@ -197,12 +202,12 @@
           "alt": "Revolut logo"
         },
         {
-          "img": "partner-logos/1776242127452_1776241700529_dacia.jpg",
+          "img": "partner-logos/1776242426457_1776242355116_dacia.jpg",
           "url": "https://www.tiktok.com/@ilovedacia",
           "alt": "Partner"
         },
         {
-          "img": "partner-logos/1776242130630_1776241572363_logo2.jpg",
+          "img": "partner-logos/1776242427171_1776242392598_logo2.jpg",
           "url": "https://www.instagram.com/poetbypetry/",
           "alt": "Partner"
         },
