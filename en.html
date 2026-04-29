@@ -9,6 +9,7 @@
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <meta property="og:title" content="BrandZone - English" />
     <meta property="og:description" content="BrandZone official site - English" />
@@ -35,7 +36,7 @@
                     </div>
                 </ul>
                 </div>
-                <div class="a-menu-button"><a href="#arajanlat" class="menu-button">OFFER REQUEST</a></div>
+                <div class="a-menu-button"><a href="#arajanlat" class="menu-button">Offer</a></div>
                 <button class="hamburger" onclick="toggleMobileMenu()">☰</button>
             </nav>
             <div class="mobile-menu" id="mobile-menu">
@@ -52,7 +53,7 @@
         </header>
     </div>
     <div class="content">
-        <p id="content-2">Our mission is to produce content that truly stands out and delivers measurable brand value.</p>
+        <p id="content-2">Helping brands build real connections with people through video content.</p>
     </div>
     <div class="inner-body">
         <div class="egyuttmukodeseink">
@@ -63,30 +64,96 @@
             <div class="logo-track" id="logoTrack">
                 
             </div>
+            <button class="card-effects" id="show-more-logos-btn"><span class="material-symbols-outlined">stat_minus_1</span></button>
         </div>
         <div class="csapat" id="rolunk">
             <h1 class="header">The Team</h1>
         </div>
-        <div class="team-holder">
-            <div class="team-member">
-                <a href="https://www.linkedin.com/in/krisztian-gal-99368a359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><img src="teamcard/teamcard_krisztian.jpeg" alt="Gál Krisztián"></a>
-                <h3>GÁL KRISZTIÁN</h3>
-                <p>CAMERAMAN</p>
+         <div class="team-holder">
+            <div class="team-box card-effects">
+                <div class="group-text">
+                    <p>Our focus is on short-form video content that helps you stand out from the social media noise and delivers real results.
+                    </p>
+                    <p>
+                        We work as a young, creative team that adapts quickly and always pushes projects forward with fresh ideas. In addition, we produce other types of content, ranging from commercials to campaign videos.
+                    </p>
+                    <p>
+                        Based in Odorheiu Secuiesc, we film regularly in Cluj-Napoca and take on projects all across Romania.
+                    </p>
+                    <button class="expand-btn"><span>⌵</span></button>
+                </div>
+                <div class="group-photo">
+                    <img src="/teamcard/team.png" alt="Team">
+                </div>
+                <button class="expand-btn expand-btn-mobile"><span>⌵</span></button>
             </div>
-            <div class="team-member">
-                <a href="https://www.linkedin.com/in/bence-l%C5%91rincz-bb4953380?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><img src="teamcard/teamcard_bence.jpg" alt="Lőrincz Bence"></a>
-                <h3>LŐRINCZ BENCE</h3>
-                <p>VIDEO EDITOR</p>
-            </div>
-            <div class="team-member">
-                 <a href="https://www.linkedin.com/in/mag-d%C3%A1niel-8ab64b349/?skipRedirect=true" target="_blank"><img src="teamcard/teamcard_daniel.jpeg" alt="Mag Dániel"></a>
-                <h3>MAG DÁNIEL</h3>
-                <p>SCRIPTWRITER</p>
-            </div>
-            <div class="team-member">
-                <a href="https://www.linkedin.com/in/cristian-vieriu-bb6284353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><img src="teamcard/teamcard _cristi.jpg" alt="Vieriu Cristian"></a>
-                <h3>VIERIU CRISTIAN</h3>
-                <p>SALES AGENT</p>
+
+            <div class="team-members splide hidden" id="team-carousel">
+                <button class="nav-btn prev">❮</button>
+
+                <div class="splide__track">
+                    <div class="team-grid splide__list" id="teamGrid">
+                        
+                        <div class="team-member splide__slide">
+                            <a href="https://www.linkedin.com/in/krisztian-gal-99368a359" target="_blank">
+                                <img src="teamcard/teamcard_krisztian.jpeg" alt="Gál Krisztián">
+                            </a>
+                            <h3>GÁL KRISZTIÁN</h3>
+                            <p>CO-owner & CEO </p>
+                        </div>
+
+                        <div class="team-member splide__slide">
+                            <a href="https://www.linkedin.com/in/bence-l%C5%91rincz-bb4953380" target="_blank">
+                                <img src="teamcard/teamcard_bence.jpg" alt="Lőrincz Bence">
+                            </a>
+                            <h3>LŐRINCZ BENCE</h3>
+                            <p>CO-owner & Founder</p>
+                        </div>
+
+                        <div class="team-member splide__slide">
+                            <a href="https://www.linkedin.com/in/mag-daniel-8ab64b349" target="_blank">
+                                <img src="teamcard/teamcard_daniel.jpeg" alt="Mag Dániel">
+                            </a>
+                            <h3>MAG DÁNIEL</h3>
+                            <p>CO-owner & Creative Director</p>
+                        </div>
+
+                        <div class="team-member splide__slide">
+                            <a href="https://www.linkedin.com/in/cristian-vieriu-bb6284353" target="_blank">
+                                <img src="teamcard/teamcard _cristi.jpg" alt="Vieriu Cristian">
+                            </a>
+                            <h3>VIERIU CRISTIAN</h3>
+                            <p>Account Manager</p>
+                        </div>
+
+                        <div class="team-member splide__slide">
+                            <a href="" target="_blank">
+                                <img src="teamcard/teamcard_kinga.jpg" alt="Veres Kinga">
+                            </a>
+                            <h3>VERES KINGA</h3>
+                            <p>Creative Scriptwriter</p>
+                        </div>
+
+                        <div class="team-member splide__slide">
+                            <a href="" target="_blank">
+                                <img src="teamcard/teamcard_szabi.jpg" alt="Kiss Szabolcs">
+                            </a>
+                            <h3>KISS SZABOLCS</h3>
+                            <p>Video Editor</p>
+                        </div>
+
+                        <div class="team-member splide__slide">
+                            <a href="" target="_blank">
+                                <img src="teamcard/teamcard_levi.jpg" alt="Péter Levente">
+                            </a>
+                            <h3>PÉTER LEVENTE</h3>
+                            <p>Videographer</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button class="nav-btn next">❯</button>
             </div>
         </div>
         <div id="referenciak">
@@ -103,23 +170,24 @@
         </div>
        <div class="banner-main-holder">
     <div class="banner">
-        <div class="banner-placeholder">
+        <div class="banner-placeholder card-effects">
             <div class="banner-text half">
                 <h2>TIKTOK, REELS CONTENT CREATION</h2>
-                <p>We work with brands that believe in the power of short-form videos and understand that consistent, high-quality content isn’t an expense — it’s an investment that pays off.
+                <p>For us, short-form content is not about standalone videos, but about building a brand organically over the long term.
+                    A type of communication that works at the level of leading brands and that people genuinely connect with.
                 </p>
                 <ul id="more-space">
                     <li>
                         <img src="banner/checkmark.png" alt="Checkmark icon">
-                        Our videos perform 3x better on average.
+                        Brand-aligned content
                     </li>
                     <li>
                         <img src="banner/clock.png" alt="Clock icon">
-                        We provide the perfect faces for your brand.
+                        Strategic thinking
                     </li>
                     <li>
                         <img src="banner/rocket.png" alt="Rocket icon">
-                        We produce *unique content* you won’t see anywhere else.
+                        End-to-end project management
                     </li>
                 </ul>
             </div>
@@ -129,7 +197,7 @@
         </div>
     </div>
     <div class="banner">
-        <div class="banner-placeholder">
+        <div class="banner-placeholder card-effects">
             <div class="banner-text half">
                 <h2>COMMERCIAL VIDEO PRODUCTION</h2>
                 <p>From idea to shooting to editing – we take care of everything: storyboard, location and crew, lighting–sound, motion graphics, subtitles.  
@@ -156,7 +224,7 @@
         </div>
     </div>
     <div class="banner">
-        <div class="banner-placeholder">
+        <div class="banner-placeholder card-effects">
             <div class="banner-text half">
                 <h2>UGC CONTENT CREATION</h2>
                 <p>We work with a vast talent pool, so we can always find the right face for your brand in any industry or target group.  
@@ -285,5 +353,6 @@
     <script src="scripts/countup.js"></script>
     <script src="app.js"></script>
     <script src="scripts/faq.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 </body>
 </html>

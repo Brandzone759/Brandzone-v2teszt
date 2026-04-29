@@ -14,9 +14,9 @@
     div.counter-holder {
         padding: 3rem;
     }
-    div.counter-box {
+    /*div.counter-box {
         transform: scale(0.8);
-    }
+    }*/
     div.banner-placeholder {
         flex-direction: column;
     }
@@ -36,18 +36,10 @@
     #menu-logo {
         display: inline;
     }
-    .menu-button {
-        right: 50%;
-        translate: 60%;
-    }
     .a-menu-button {
         right: auto;
         left: 10px;
         position: relative;
-    }
-    .a-menu-button a {
-        position: absolute;
-        right: 80px;
     }
     button.hamburger {
         display: inline;  
@@ -65,8 +57,40 @@
         transform: scale(0.7);
         margin: 0;
    }
-   div.counter-holder {
-        flex-direction: column;
+   .logo-track:not(.show-all) a:nth-child(n+7) {
+        display: none;
+   }
+   .logo-roll button {
+        display: block;
+        border-radius: 50%;
+        border: none;
+        background: var(--glass-bg);
+        color: rgb(200, 200, 200);
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   }
+   .counter-holder {
+        flex-wrap: wrap;
+        gap: 1rem;
+   }
+   .counter-box {
+        width: 8rem !important;
+        height: 8rem !important;
+
+        & img {
+            width: 2.5rem;
+        }
+
+        & h2 {
+            font-size: 14px;
+        }
+
+        & p {
+            font-size: 12px;
+        }
    }
    footer img#logo {
         display: none;
@@ -87,9 +111,10 @@
     
     .contact-holder {
         flex-direction: column;
+        width: 100%;
     }
     .tel, .email {
-        width: 100%;
+        width: 92%;
         display: grid;
         grid-template-columns: 1fr 3fr;
         align-items: center;
@@ -104,16 +129,6 @@
     .tel p, .email p {
         margin: 1rem auto;
     }
-}
-
-@media (max-width: 23.43rem) {
-    div.logo-track img, div.logo-track {
-        transform: scale(0.5);    
-   }
-   div.content {
-       height: 20em;
-   }
-
 }
 
 @media (max-width: 1221px) {
@@ -133,11 +148,6 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-  .logo-roll::before {
-    background: transparent;
-  }
-}
 @media screen and (max-width: 385px) {
     .lang-element {
         transform: scale(0.8);
@@ -185,5 +195,8 @@
     }
     .form input, .form textarea {
         font-size: 16px;
+    }
+    #submit-button input {
+        width: 100%;
     }
 }

@@ -1,6 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
     loadData();
     videoObserver();
+
+    const logoContainer = document.querySelector('.logo-track');
+    const showMoreLogosBtn = document.getElementById('show-more-logos-btn');
+
+    showMoreLogosBtn.addEventListener('click', () => {
+        logoContainer.classList.toggle('show-all');
+        if (logoContainer.classList.contains('show-all')) {
+            showMoreLogosBtn.innerHTML = '<span class="material-symbols-outlined">stat_1</span>'
+        } else {
+            showMoreLogosBtn.innerHTML = '<span class="material-symbols-outlined">stat_minus_1</span>'
+        }
+    })
 });
 
 async function loadData() {
@@ -49,7 +61,7 @@ function displayCounters(counters, labels) {
         const labelText = labels[counter.id] || counter.id.toUpperCase();
 
         return `
-            <div class="counter-box">
+            <div class="counter-box card-effects">
                 <img src="${counter.icon}" alt="Icon">
                 <h2>
                     <span class="counter" data-target="${counter.count}">${counter.display}</span> +
@@ -74,7 +86,7 @@ function displayVideos(videos) {
     const videosHTML = videos.map(video => {
     
         return `
-        <div class="video-item">
+        <div class="video-item card-effects">
             <div class="video-logo-and-name">
                 <img class="video-logo" src="${video.logo}" alt="Partner logo">
                 <span class="video-partner">${video.title}</span>
@@ -128,7 +140,7 @@ function displayFAQ(faqData) {
     const faqContent = faqData.map(f => {
         return `
             <div class="faq-element">
-                <button type="button" class="faq-question">${f.question}</button>
+                <button type="button" class="faq-question card-effects">${f.question}</button>
                 <div class="faq-answer">
                     <p>${f.answer}</p>
                 </div>
@@ -138,3 +150,83 @@ function displayFAQ(faqData) {
 
     faqContainer.innerHTML = faqContent;
 }
+
+function scrollCarousel(direction) {
+    const container = document.getElementById('teamGrid');
+    const cards = container.querySelectorAll('.team-member');
+    
+    if (!container || cards.length === 0) return;
+
+    const currentScroll = container.scrollLeft;
+    const cardPositions = Array.from(cards).map(card => card.offsetLeft - cards[0].offsetLeft);
+    
+    let currentIndex = cardPositions.findIndex(pos => pos >= currentScroll - 10);
+    if (currentIndex === -1) currentIndex = 0;
+
+    let targetIndex = currentIndex + direction;
+    
+    if (targetIndex < 0) targetIndex = 0;
+    if (targetIndex >= cards.length) targetIndex = cards.length - 1;
+
+    const targetOffset = cardPositions[targetIndex];
+
+    container.scrollTo({
+        left: targetOffset,
+        behavior: 'smooth'
+    });
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    const splide = new Splide('#team-carousel', {
+        type   : 'slide',
+        perPage: 4,
+        perMove: 1,
+        gap    : '2rem',      
+        arrows : false,       
+        pagination: false,    
+        trimSpace: true,     
+        speed: 600, 
+        drag: true,
+        snap: true,       
+
+        breakpoints: {
+            1200: {
+                perPage: 4,
+            },
+            900: {
+                perPage: 2,
+            },
+            500: {
+                perPage: 1.5,
+                focus: 0,
+                gap: '1rem',
+                trimSpace: true,
+            }
+        }
+    });
+
+    splide.mount();
+
+    const nextBtn = document.querySelector('.next');
+    const prevBtn = document.querySelector('.prev');
+
+    if (nextBtn && prevBtn) {
+        nextBtn.addEventListener('click', () => splide.go('>'));
+        prevBtn.addEventListener('click', () => splide.go('<'));
+    }
+
+    const expandButtons = document.querySelectorAll('.expand-btn');
+    expandButtons.forEach((el) => el.addEventListener('click', () => {
+        const carousel = document.getElementById('team-carousel');
+        carousel.classList.toggle('hidden');
+        if (el.style.rotate === '180deg') {
+            el.style.rotate = '0deg';
+        } else {
+            el.style.rotate = '180deg';
+        }
+        setTimeout(() => {
+            splide.refresh();
+        }, 100);
+    }));
+});
+
