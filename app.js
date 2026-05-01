@@ -13,6 +13,33 @@ document.addEventListener("DOMContentLoaded", () => {
             showMoreLogosBtn.innerHTML = '<span class="material-symbols-outlined">stat_minus_1</span>'
         }
     })
+
+    const heroVideo = document.querySelector('.hero-video');
+    if (!heroVideo) return; 
+
+    let playPromise = heroVideo.play();
+
+    if (playPromise !== undefined) {
+        playPromise.then(() => {
+        }).catch(error => {
+            heroVideo.style.display = 'none';
+        });
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                if (heroVideo.style.display !== 'none') {
+                    heroVideo.play().catch(e => console.log("Autoplay hiba görgetéskor"));
+                }
+            } else {
+                heroVideo.pause();
+            }
+        });
+    }, { 
+        threshold: 0.0
+    });
+    observer.observe(heroVideo);
 });
 
 async function loadData() {
