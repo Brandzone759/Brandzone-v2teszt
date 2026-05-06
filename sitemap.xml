@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://brandzone.ro/</loc>
+  <lastmod>2026-05-06T17:16:01+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/en</loc>
+  <lastmod>2026-05-06T17:16:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/hu</loc>
+  <lastmod>2026-05-06T17:16:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/policy/politica-de-confidentialitate</loc>
+  <lastmod>2026-05-06T17:16:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/policy/privacy-policy</loc>
+  <lastmod>2026-05-06T17:16:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/policy/adatvedelmi-tajekoztato</loc>
+  <lastmod>2026-05-06T17:16:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
