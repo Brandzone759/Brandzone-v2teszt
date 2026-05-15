@@ -17,10 +17,10 @@
 }
 
 .card-effects {
-    box-shadow: 0 0 8vw rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px); 
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 8vw rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(8px) !important; 
+    -webkit-backdrop-filter: blur(5px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 body, * {
@@ -739,11 +739,18 @@ div.video-holder {
     margin-top: 10vh;
     margin-bottom: 10vh;
 }
-.banner-main-holder {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+
+@media screen and (min-width: 768px) {
+    .banner-main-holder {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner.splide__slide {
+        margin-block: 3rem;
+    }
 }
+
 div.banner {
     color: white;
     position: relative;
@@ -790,19 +797,67 @@ ul.w-inverted-icons img {
 
 .banner-placeholder li img {
     width: 1rem;
+    height: 1rem;
 }
 .banner-placeholder li {
     padding: 0.7rem 0;
+    display: flex;
+    place-items: center;
+    gap: 10px;
+    
 }
 .banner-img img, .banner-img {
     padding-left: 5rem;
     width: 85%;
-    min-width: 300px;
     max-width: 500px;
 }
+
 .banner-img {
     display: flex;
     align-items:end;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-placeholder p {
+        font-size: 13px;
+    }
+    .banner-placeholder h2 {
+        padding-top: 0;
+        padding-bottom: 0.6rem;
+    }
+    .banner-placeholder li {
+        font-size: 13px;
+        padding: 0.5rem;
+        padding-top: 0;
+    }
+}
+
+#servicesCarousel .splide__arrows {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    margin-top: 0.9rem;
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+#servicesCarousel .splide__arrow {
+    position: static;
+    transform: none;
+    width: 40px;
+    height: 40px;
+    background-color: var(--glass-bg);
+
+    & span {
+        font-size: 16px;
+        color: white;
+    }
+}
+
+#servicesCarousel .splide__pagination {
+    transform: translateY(-4px);
 }
 #faq-container {
     width: 95%;

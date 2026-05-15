@@ -165,6 +165,7 @@
 @media screen and (max-width: 1190px) {
     div.banner-placeholder {
         flex-direction: column;
+        justify-content: center;
     }
     div.banner-img {
         display: flex;

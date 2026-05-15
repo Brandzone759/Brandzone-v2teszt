@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     loadData();
     videoObserver();
+    ServicesCarousel();
 
     const logoContainer = document.querySelector('.logo-track');
     const showMoreLogosBtn = document.getElementById('show-more-logos-btn');
@@ -256,4 +257,23 @@ document.addEventListener('DOMContentLoaded', function () {
         }, 100);
     }));
 });
+
+
+function ServicesCarousel() {
+    const splide = new Splide('#servicesCarousel', {
+        type: 'slide',
+        perPage: 1,
+        gap: '1.5rem',
+        pagination: true,
+        mediaQuery: 'min',
+        arrows: true,
+        breakpoints: {
+            768: {
+                destroy: true
+            }
+        }
+    });
+    splide.mount();
+}
+// MOTION ANIMATIONS
 
