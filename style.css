@@ -273,6 +273,7 @@ h1.header {
     font-family: var(--font-secondary);
     font-size: calc(30px + 3vw);
     text-shadow: 0 0 0 black, 0 0 10px lightgrey;
+    text-align: center;
 }
 h1.brandson {
     font-size: calc(40px + 3.5vw);
