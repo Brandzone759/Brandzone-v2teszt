@@ -979,6 +979,7 @@ p.box-header {
 p.desc {
     margin-bottom: 0.5rem;
     font-size: calc(10px + 0.3vw);
+    font-weight: bold;
 }
 
 .contact-holder img {
