@@ -1,5 +1,6 @@
-document.addEventListener("DOMContentLoaded", () => {
-    loadData();
+document.addEventListener("DOMContentLoaded", async () => {
+    await loadData();
+    VideoCarousel();
     videoObserver();
     ServicesCarousel();
 
@@ -114,16 +115,16 @@ function displayVideos(videos) {
     const videosHTML = videos.map(video => {
     
         return `
-        <div class="video-item card-effects">
-            <div class="video-logo-and-name">
-                <img class="video-logo" src="${video.logo}" alt="Partner logo">
-                <span class="video-partner">${video.title}</span>
-            </div>
-            <div class="iframe-wrapper" style="position:relative; padding-top:56.25%;">
+        <div class="splide__slide video-slide">
+            <div class="video-item card-effects">
+                <div class="video-logo-and-name">
+                    <img class="video-logo" src="${video.logo}" alt="Partner logo">
+                    <span class="video-partner">${video.title}</span>
+                </div>
                 <iframe 
                     src="https://iframe.mediadelivery.net/embed/${bunnyLibraryId}/${video.bunnyVideoId}?autoplay=false&preload=false" 
                     loading="lazy" 
-                    style="border:0; position:absolute; top:0; height:100%; width:100%;" 
+                    style="border:0; position:absolute; top:0; left:0; height:100%; width:100%;" 
                     allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" 
                     allowfullscreen="true">
                 </iframe>
@@ -270,6 +271,31 @@ function ServicesCarousel() {
         breakpoints: {
             768: {
                 destroy: true
+            }
+        }
+    });
+    splide.mount();
+}
+
+function VideoCarousel() {
+    const el = document.getElementById('videoCarousel');
+    if (!el) return;
+
+    const splide = new Splide('#videoCarousel', {
+        type: 'slide',
+        perPage: 4,
+        perMove: 1,
+        gap: '1.5rem',
+        arrows: true,
+        pagination: false,
+        speed: 600,
+        drag: true,
+        breakpoints: {
+            1024: {
+                perPage: 2,
+            },
+            600: {
+                perPage: 1,
             }
         }
     });
