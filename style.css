@@ -979,17 +979,29 @@ p.box-header {
 p.desc {
     margin-bottom: 0.5rem;
     font-size: calc(10px + 0.3vw);
-    font-weight: bold;
+}
+
+.icon-wrapper {
+    margin-bottom: 1rem;
+    border: 2px solid grey;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 13px;
 }
 
 .contact-holder img {
     width: 2vw;
     min-width: 25px;
     height: auto;
-    border: 2px solid grey;
-    border-radius: 100%;
-    padding: 13px;
-    margin-bottom: 1rem;
+    display: block;
+    
+}
+
+.email img {
+    filter: drop-shadow(0 0 6px #327cff);
+}
+.tel img {
+   filter: drop-shadow(0 0 5px #1feb5d); 
 }
 
 
