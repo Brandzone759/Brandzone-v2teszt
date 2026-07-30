@@ -977,12 +977,10 @@ p.box-header {
     font-family: var(--font-primary);
 }
 p.desc {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     font-size: calc(10px + 0.3vw);
 }
-.tel p:nth-of-type(3).desc, .email p:nth-of-type(3).desc {
-    font-family: var(--font-primary);
-}
+
 .contact-holder img {
     width: 2vw;
     min-width: 25px;
