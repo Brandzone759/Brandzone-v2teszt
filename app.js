@@ -282,7 +282,7 @@ function VideoCarousel() {
     if (!el) return;
 
     const splide = new Splide('#videoCarousel', {
-        type: 'slide',
+        type: 'loop',
         perPage: 4,
         perMove: 1,
         gap: '1.5rem',
