@@ -359,6 +359,11 @@
           "alt": "Partner"
         },
         {
+          "img": "partner-logos/1785514162014_1785514158997_Chery_logo.png",
+          "url": "https://www.facebook.com/cheryharghita",
+          "alt": "Partner"
+        },
+        {
           "img": "partner-logos/1776242698355_1776242606295_logo2.jpg",
           "url": "https://www.instagram.com/poetbypetry/",
           "alt": "Partner"
@@ -412,11 +417,6 @@
           "url": "https://www.tiktok.com/@visitparajd",
           "img": "partner-logos/visit_parajd.jpg",
           "alt": "Visit Praid logo"
-        },
-        {
-          "url": "https://www.tiktok.com/@miklos.steel",
-          "img": "partner-logos/miklos_steel.jpg",
-          "alt": "Miklos Steel logo"
         }
       ],
       "counterTexts": {
