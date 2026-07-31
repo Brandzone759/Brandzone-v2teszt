@@ -85,6 +85,11 @@
           "alt": "Diverzum logo"
         },
         {
+          "img": "partner-logos/1785513735074_1785513631860_Chery_logo.png",
+          "url": "https://www.tiktok.com/@chery_autotorino",
+          "alt": "Partner"
+        },
+        {
           "url": "https://www.tiktok.com/@sik.group",
           "img": "partner-logos/sik_group.jpg",
           "alt": "SIK Group logo"
@@ -98,11 +103,6 @@
           "url": "https://www.tiktok.com/@visitparajd",
           "img": "partner-logos/visit_parajd.jpg",
           "alt": "Visit Parajd logo"
-        },
-        {
-          "img": "partner-logos/1785513735074_1785513631860_Chery_logo.png",
-          "url": "https://www.tiktok.com/@chery_autotorino",
-          "alt": "Partner"
         }
       ],
       "counterTexts": {
