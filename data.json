@@ -242,6 +242,11 @@
           "alt": "Diverzum logo"
         },
         {
+          "img": "partner-logos/1785513849884_1785513842553_Chery_logo.png",
+          "url": "https://www.facebook.com/cheryharghita",
+          "alt": "Partner"
+        },
+        {
           "url": "https://www.tiktok.com/@utilajetransilvane_ro",
           "img": "partner-logos/sik_group.jpg",
           "alt": "SIK Group logo"
@@ -255,11 +260,6 @@
           "url": "https://www.tiktok.com/@visitparajd",
           "img": "partner-logos/visit_parajd.jpg",
           "alt": "Visit Praid logo"
-        },
-        {
-          "url": "https://www.tiktok.com/@miklos.steel",
-          "img": "partner-logos/miklos_steel.jpg",
-          "alt": "Miklos Steel logo"
         }
       ],
       "counterTexts": {
