@@ -13,17 +13,21 @@ document.addEventListener("DOMContentLoaded", function() {
         loadMarketingPixels();
     }
 
-    acceptBtn.addEventListener('click', () => {
-        localStorage.setItem('cookieConsent', 'accepted');
-        cookieBanner.classList.remove('show');
-        loadMarketingPixels();
-    });
-
-    rejectBtn.addEventListener('click', () => {
-        localStorage.setItem('cookieConsent', 'rejected');
-        cookieBanner.classList.remove('show');
-    });
-
+    if (acceptBtn) {
+        acceptBtn.addEventListener('click', () => {
+            localStorage.setItem('cookieConsent', 'accepted');
+            cookieBanner.classList.remove('show');
+            loadMarketingPixels();
+        });
+    }
+    
+    if (rejectBtn) {
+        rejectBtn.addEventListener('click', () => {
+            localStorage.setItem('cookieConsent', 'rejected');
+            cookieBanner.classList.remove('show');
+        });
+    }
+    
     function loadMarketingPixels() {
         
         // 1. TIKTOK PIXEL
