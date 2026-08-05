@@ -69,12 +69,10 @@
                 <a href="#faq-title" class="menu" id="faq-ref">FAQ</a>
                 <div class="lang-block">
                     <ul class="lang-select">
-                    <li class="lang-element lang-current"><a href="javascript:void(0)"><img src="flags/gb.svg" alt="english flag"></a></li>
-                    <div class="lang-hidden">
+                        <li class="lang-element lang-current"><a href="javascript:void(0)"><img src="flags/gb.svg" alt="english flag"></a></li>
                         <li class="lang-element"><a href="hu.html"><img src="flags/hu.svg" alt="hungarian flag"></a></li>
-                        <li class="lang-element"><a href="/"><img src="flags/ro.svg" alt="romanian flag"></a></li>
-                    </div>
-                </ul>
+                        <li class="lang-element"><a href="/"><img src="flags/ro.svg" alt="romanian flag"></a></li>                    
+                    </ul>
                 </div>
                 <div class="a-menu-button"><a href="#arajanlat" class="menu-button">Offer</a></div>
                 <button class="hamburger" onclick="toggleMobileMenu()">☰</button>
@@ -347,15 +345,15 @@
                 </div>
                 <form id="request-form" name="form-en" method="POST" action="/form-submit/thank-you.html" netlify>
                     <label for="name">Full Name:*</label> <br>
-                        <input type="text" name="name" placeholder="Full Name" required> <br>
+                        <input type="text" name="name" id="name" placeholder="Full Name" required> <br>
                     <label for="company">Company Name:*</label> <br>
-                        <input type="text" name="company" placeholder="Company Name" required> <br>
+                        <input type="text" name="company" id="company" placeholder="Company Name" required> <br>
                     <label for="email">Email Address:*</label> <br>
-                        <input type="email" name="email" placeholder="Email Address"> <br>
+                        <input type="email" name="email" id="email" placeholder="Email Address"> <br>
                     <label for="phone">Phone Number:</label> <br>
-                        <input type="tel" name="phone" placeholder="Phone Number"> <br>
+                        <input type="tel" name="phone" id="phone" placeholder="Phone Number"> <br>
                     <label for="note">Explain how we can help:*</label> <br>
-                        <textarea name="note" rows="10" cols="50"></textarea> <br>
+                        <textarea name="note" id="note" rows="10" cols="50"></textarea> <br>
                      <div class="checkbox-wrapper">
                         <input type="checkbox" name="cb-policy" id="cb-policy" required>
                         <label for="cb-policy">I accept the <a href="/policy/privacy-policy.html" target="_blank">Privacy Policy</a> and consent to the processing of my data.</label> <br>

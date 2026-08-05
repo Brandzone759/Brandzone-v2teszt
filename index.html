@@ -68,12 +68,10 @@
                 <a href="#faq-title" class="menu" id="faq-ref">Întrebări frecvente</a>
                 <div class="lang-block">
                     <ul class="lang-select">
-                    <li class="lang-element lang-current"><a href="javascript:void(0)"><img src="flags/ro.svg" alt="steagul României"></a></li>
-                    <div class="lang-hidden">
+                        <li class="lang-element lang-current"><a href="javascript:void(0)"><img src="flags/ro.svg" alt="steagul României"></a></li>
                         <li class="lang-element"><a href="en.html"><img src="flags/gb.svg" alt="steagul engleză"></a></li>
                         <li class="lang-element"><a href="hu.html"><img src="flags/hu.svg" alt="steagul maghiar"></a></li>
-                    </div>
-                </ul>
+                    </ul>
                 </div>
                 <div class="a-menu-button"><a href="#arajanlat" class="menu-button">Ofertă</a></div>
                 <button class="hamburger" onclick="toggleMobileMenu()">☰</button>
@@ -347,15 +345,15 @@
                 </div>
                 <form id="request-form" name="form-ro" method="POST" action="/form-submit/multumim.html" netlify>
                     <label for="name">Nume și Prenume:*</label> <br>
-                        <input type="text" name="name" placeholder="Nume și prenume" required> <br>
+                        <input type="text" name="name" id="name" placeholder="Nume și prenume" required> <br>
                     <label for="company">Nume companie:*</label> <br>
-                        <input type="text" name="company" placeholder="Nume companie" required> <br>
+                        <input type="text" name="company" id="company" placeholder="Nume companie" required> <br>
                     <label for="email">Adresă e-mail:*</label> <br>
-                        <input type="email" name="email" placeholder="Adresă e-mail"> <br>
+                        <input type="email" name="email" id="email" placeholder="Adresă e-mail"> <br>
                     <label for="phone">Număr de telefon:</label> <br>
-                        <input type="tel" name="phone" placeholder="Număr de telefon"> <br>
+                        <input type="tel" name="phone" id="phone" placeholder="Număr de telefon"> <br>
                     <label for="note">Detaliază cum te putem ajuta:*</label> <br>
-                        <textarea name="note" rows="10" cols="50"></textarea> <br>
+                        <textarea name="note" id="note" rows="10" cols="50"></textarea> <br>
                      <div class="checkbox-wrapper">
                         <input type="checkbox" name="cb-policy" id="cb-policy" required>
                         <label for="cb-policy">Accept <a href="/policy/politica-de-confidentialitate.html" target="_blank">Politica de Confidențialitate</a> și sunt de acord cu prelucrarea datelor mele.</label> <br>
@@ -418,6 +416,5 @@
     <script src="app.js"></script>
     <script src="scripts/faq.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/motion@latest/dist/motion.js"></script>
 </body>
 </html>

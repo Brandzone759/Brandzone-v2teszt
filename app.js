@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
     await loadData();
     VideoCarousel();
-    videoObserver();
     ServicesCarousel();
 
     const logoContainer = document.querySelector('.logo-track');
@@ -49,7 +48,7 @@ async function loadData() {
         const response = await fetch("./data.json");
         const data = await response.json();
 
-        const currentLang = document.documentElement.lang.split('-')[0] || "hu";
+        const currentLang = document.documentElement.lang.split('-')[0] || "ro";
         const sharedData = data.shared;
         const languageData = data.languages[currentLang];
 
@@ -136,30 +135,6 @@ function displayVideos(videos) {
     container.innerHTML = videosHTML;
 }
 
-function videoObserver() {
-
-    document.addEventListener('play', function(e) {
-        if (e.target.matches('.video-element')) {
-            const container = e.target.closest('.video-item');
-            if (container) container.classList.add('playing');
-        }
-    }, true);
-
-    document.addEventListener('pause', function(e) {
-        if (e.target.matches('.video-element')) {
-            const container = e.target.closest('.video-item');
-            if (container) container.classList.remove('playing');
-        }
-    }, true);
-
-    document.addEventListener('ended', function(e) {
-        if (e.target.matches('.video-element')) {
-            const container = e.target.closest('.video-item');
-            if (container) container.classList.remove('playing');
-        }
-    }, true);
-}
-
 function displayFAQ(faqData) {
     if (!faqData) return;
 
@@ -178,31 +153,6 @@ function displayFAQ(faqData) {
     }).join("");
 
     faqContainer.innerHTML = faqContent;
-}
-
-function scrollCarousel(direction) {
-    const container = document.getElementById('teamGrid');
-    const cards = container.querySelectorAll('.team-member');
-    
-    if (!container || cards.length === 0) return;
-
-    const currentScroll = container.scrollLeft;
-    const cardPositions = Array.from(cards).map(card => card.offsetLeft - cards[0].offsetLeft);
-    
-    let currentIndex = cardPositions.findIndex(pos => pos >= currentScroll - 10);
-    if (currentIndex === -1) currentIndex = 0;
-
-    let targetIndex = currentIndex + direction;
-    
-    if (targetIndex < 0) targetIndex = 0;
-    if (targetIndex >= cards.length) targetIndex = cards.length - 1;
-
-    const targetOffset = cardPositions[targetIndex];
-
-    container.scrollTo({
-        left: targetOffset,
-        behavior: 'smooth'
-    });
 }
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -301,5 +251,4 @@ function VideoCarousel() {
     });
     splide.mount();
 }
-// MOTION ANIMATIONS
 

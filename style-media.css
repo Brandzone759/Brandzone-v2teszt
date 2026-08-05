@@ -1,7 +1,4 @@
-@media (max-width: 36rem) {
-    
-}
-@media (max-width: 51.688rem) /*827px*/ {
+@media (max-width: 832px) {
     .team-holder {
         height: auto;
     }
@@ -14,9 +11,6 @@
     div.counter-holder {
         padding: 3rem;
     }
-    /*div.counter-box {
-        transform: scale(0.8);
-    }*/
     div.banner-placeholder {
         flex-direction: column;
     }
@@ -42,7 +36,7 @@
         position: relative;
     }
     button.hamburger {
-        display: inline;  
+        display: inline;
     }
     div#mobile-menu.show, div#mobile-menu a.show {
         display: block;
@@ -52,52 +46,8 @@
         width: 75%;
     }
 }
-@media (max-width: 39.3rem) {
-   div.logo-track img {
-        transform: scale(0.7);
-        margin: 0;
-   }
-   .logo-track:not(.show-all) a:nth-child(n+7) {
-        display: none;
-   }
-   .logo-roll button {
-        display: block;
-        border-radius: 50%;
-        border: none;
-        background: var(--glass-bg);
-        color: rgb(200, 200, 200);
-        width: 2rem;
-        height: 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-   }
-   .counter-holder {
-        flex-wrap: wrap;
-        gap: 1rem;
-   }
-   .counter-box {
-        width: 8rem !important;
-        height: 8rem !important;
-
-        & img {
-            width: 2.5rem;
-        }
-
-        & h2 {
-            font-size: 14px;
-        }
-
-        & p {
-            font-size: 12px;
-        }
-   }
-   footer img#logo {
-        display: none;
-   }
-
-}
-@media (max-width: 29.375rem) {
+ 
+@media (max-width: 480px) {
     div.banner-img {
         justify-content: center;
     }
@@ -106,9 +56,8 @@
     }
     footer {
         flex-direction: column;
-        align-items: center;;
+        align-items: center;
     }
-    
     .contact-holder {
         flex-direction: column;
         width: 100%;
@@ -130,10 +79,8 @@
         margin: 0.5rem auto;
     }
 }
-
-
-
-@media screen and (max-width: 385px) {
+ 
+@media (max-width: 380px) {
     .lang-element {
         transform: scale(0.8);
         padding: 0;
@@ -142,12 +89,8 @@
         transform: scale(0.8);
     }
 }
-@media screen and (max-width: 1186px) {
-    .banner-text.half {
-    width: 80%;
-}
-}
-@media screen and (max-width: 1190px) {
+ 
+@media (max-width: 1200px) {
     div.banner-placeholder {
         flex-direction: column;
         justify-content: center;
@@ -160,10 +103,11 @@
     div.banner-img img {
         padding: 0;
     }
-     .banner-text.half {
-    width: 100%;
+    .banner-text.half {
+        width: 100%;
+    }
 }
-}
+
 @media (max-width: 600px) {
     .cookie-banner {
         bottom: 0;
@@ -174,7 +118,7 @@
     }
     .cookie-buttons {
         flex-direction: column;
-    }   
+    }
     .cookie-buttons button {
         width: 100%;
         text-align: center;
@@ -184,5 +128,44 @@
     }
     #submit-button input {
         width: 100%;
+    }
+    div.logo-track img {
+        transform: scale(0.7);
+        margin: 0;
+    }
+    .logo-track:not(.show-all) a:nth-child(n+7) {
+        display: none;
+    }
+    .logo-roll button {
+        border-radius: 50%;
+        border: none;
+        background: var(--glass-bg);
+        color: rgb(200, 200, 200);
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .counter-holder {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .counter-box {
+        width: 8rem !important;
+        height: 8rem !important;
+ 
+        & img {
+            width: 2.5rem;
+        }
+        & h2 {
+            font-size: 14px;
+        }
+        & p {
+            font-size: 12px;
+        }
+    }
+    footer img#logo {
+        display: none;
     }
 }

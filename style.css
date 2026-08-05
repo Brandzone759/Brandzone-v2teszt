@@ -1,15 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
-@font-face {
-    font-family: 'Sf Pro Display';
-    src: url(SFPRODISPLAYREGULAR.OTF) format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
 :root {
     --glass-bg: rgba(255, 255, 255, 0.05);
     --font-primary: "Archivo Black", serif;
@@ -27,17 +19,19 @@ body, * {
     margin: 0;
     padding: 0;
 }
-  body {
+
+body {
     background-color: black;
     overscroll-behavior: none;
-    
-  }
-  html {
+
+}
+
+html {
     scroll-behavior: smooth;
     overflow-x: hidden;
     overflow-y: scroll;
     overscroll-behavior: none;
-  }
+}
 
 .hidden {
     opacity: 0 !important;
@@ -45,6 +39,7 @@ body, * {
     max-height: 0 !important;
     pointer-events: none !important;
 }
+
 nav.menu{
     width: 100%;
     height: 64px;
@@ -59,9 +54,11 @@ nav.menu{
     left: 0;
     z-index: 1000;
 }
+
 #arajanlat, #rolunk, #referenciak, #szolgaltatasok, #faq-title {
     scroll-margin-top: 75px;
 }
+
 img.menu-logo {
     max-height: 56%;
     margin: 10px;
@@ -70,9 +67,11 @@ img.menu-logo {
     inset: 5px 0 10px 13px;
     transition: 0.1s ease-in
 }
+
 img.menu-logo:hover {
     filter: invert(1) drop-shadow(0 0 5px white);
 }
+
 a.menu {
     font-family: var(--font-secondary);
     font-weight: 400;
@@ -83,12 +82,15 @@ a.menu {
     transition: text-shadow 0.3s ease;
     
 }
+
 a.menu:hover, .mobile-menu a:hover {
     text-shadow: 0 0 25px white, 0 0 5px white;
 }
+
 .a-menu-button:hover {
     transform: scale(1.1);
 }
+
 .a-menu-button {
     height: 60%;
     width: 120px;
@@ -110,54 +112,68 @@ a.menu:hover, .mobile-menu a:hover {
     justify-content: center;
     cursor: pointer;
 }
+
 .a-menu-button a {
     text-decoration: none;
     color: black;
 }
+
 .lang-block {
     position: absolute;
     right: 160px;
 }
+
 .lang-select a {
   display: flex; 
   width: 2rem;          
   height: 100%;       
 }
+
 .lang-select a img {
   width: 100%;
   height: auto;
   display: block;
   border-radius: 5px;
 }
+
 .lang-select {
     margin-top: 0.8rem;
     background-color: rgb(26 26 26);
     padding: 0.5rem;
     border-radius: 10px;
     overflow: visible;
+    list-style: none;
 }
+
+.lang-select:hover .lang-element {
+    display: block;
+}
+
 .lang-hidden li {
     padding-top: 0.8rem;    
 }
 .lang-element {
-    display: block;
+    display: none;
     position: relative;
     z-index: 1;
     will-change: filter;
     transition: filter 0.2s ease-in-out;
 }
+.lang-element.lang-current {
+    display: block;
+}
+
 .lang-element:hover {
     filter: drop-shadow(0 0 3px white);
     z-index: 1000;
 }
+
+.lang-element:not(:first-child) {
+    padding-top: 0.8rem;
+}
+
 .lang-hidden {
     display: none;
-}
-.lang-current:hover ~ .lang-hidden {
-  display: block;
-}
-.lang-hidden:hover ~ .lang-hidden, .lang-hidden:hover {
-    display: block;
 }
 
 button.hamburger {
@@ -481,9 +497,7 @@ div.csapat {
 
     &:active {
         scale: 0.8;
-    }
-
-    
+    } 
 }
 
 @media (max-width: 930px) {
@@ -670,6 +684,7 @@ div.counter-box {
 #videoCarousel {
     margin: 0 2vw;
     margin-bottom: 10vh;
+    position: relative;
 }
 #videoCarousel .splide__list {
     align-items: stretch;
@@ -725,10 +740,6 @@ div.counter-box {
     cursor: pointer;
 }
 
-#videoCarousel {
-    position: relative;
-}
-
 #videoCarousel .splide__arrows {
     position: absolute;
     top: 50%;
@@ -771,13 +782,6 @@ div.counter-box {
         cursor: default;
     }
 }
-/*body.is-safari .video-logo-and-name {
-    backdrop-filter: blur(30px);
-    width: 100%;
-    top: 0;
-    left: 0;
-    padding: 0.5rem;
-}*/
 #szolgaltatasok, #faq-title {
     display: flex;
     justify-content: center;
@@ -810,11 +814,6 @@ div.banner-placeholder {
     justify-content: space-between;
     border-radius: 25px;
     background-color: var(--glass-bg);
-}
-#main-banner-h2 {
-    display: flex;
-    justify-self: center;
-    align-self: center;
 }
 .banner-text.main {
     display: flex;
@@ -1059,13 +1058,12 @@ p.desc {
     color: white;
     border-radius: 20px;
     border: 1px solid rgba(255 ,255, 255, 0.2);
-    width: 100%;
     height: 2rem;
     padding: 0.3rem 0.8rem;
     margin-bottom: 1rem;
     margin-top: 0.5rem;
     transition: 0.2s ease;
-    width: 90%;
+    width: 95%;
 }
 .form textarea {
     height: auto;

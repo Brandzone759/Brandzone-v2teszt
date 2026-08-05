@@ -66,12 +66,10 @@
                 <a href="#faq-title" class="menu" id="faq-ref">GYIK</a>
                 <div class="lang-block">
                     <ul class="lang-select">
-                    <li class="lang-element lang-current"><a href="javascript:void(0)"><img src="flags/hu.svg" alt="magyar zászló"></a></li>
-                    <div class="lang-hidden">
+                        <li class="lang-element lang-current"><a href="javascript:void(0)"><img src="flags/hu.svg" alt="magyar zászló"></a></li>
                         <li class="lang-element"><a href="/"><img src="flags/ro.svg" alt="román zászló"></a></li>
                         <li class="lang-element"><a href="en.html"><img src="flags/gb.svg" alt="angol zászló"></a></li>
-                    </div>
-                </ul>
+                    </ul>
                 </div>
                 <div class="a-menu-button"><a href="#arajanlat" class="menu-button">Árajánlat</a></div>
                 <button class="hamburger" onclick="toggleMobileMenu()">☰</button>
@@ -352,15 +350,15 @@
                 </div>
                 <form id="request-form" name="form-hu" method="POST" action="/form-submit/koszonjuk.html" netlify>
                     <label for="name">Vezetéknév és keresztnév:*</label> <br>
-                        <input type="text" name="name" placeholder="Vezetéknév és keresztnév" required> <br>
+                        <input type="text" name="name" id="name" placeholder="Vezetéknév és keresztnév" required> <br>
                     <label for="company">Cégnév:*</label> <br>
-                        <input type="text" name="company" placeholder="Cégnév" required> <br>
+                        <input type="text" name="company" id="company" placeholder="Cégnév" required> <br>
                     <label for="email">Email cím:*</label> <br>
-                        <input type="email" name="email" placeholder="Email cím"> <br>
+                        <input type="email" name="email" id="email" placeholder="Email cím"> <br>
                     <label for="phone">Telefonszám:</label> <br>
-                        <input type="tel" name="phone" placeholder="Telefonszám"> <br>
+                        <input type="tel" name="phone" id="phone" placeholder="Telefonszám"> <br>
                     <label for="note">Fejtsd ki, hogy miben segíthetünk:*</label> <br>
-                        <textarea name="note" rows="10" cols="50"></textarea> <br>
+                        <textarea name="note" id="note" rows="10" cols="50"></textarea> <br>
                     <div class="checkbox-wrapper">
                         <input type="checkbox" name="cb-policy" id="cb-policy" required>
                         <label for="cb-policy">Elfogadom az <a href="/policy/adatvedelmi-tajekoztato.html" target="_blank">Adatvédelmi Tájékoztatót</a> és hozzájárulok az adataim kezeléséhez.</label> <br>
