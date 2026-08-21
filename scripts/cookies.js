@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
         // 2. META / FACEBOOK PIXEL
-        (function(f,b,e,v,n,t,s) {
+        /*(function(f,b,e,v,n,t,s) {
             if(f.fbq)return;n=f.fbq=function(){n.callMethod?
             n.callMethod.apply(n,arguments):n.queue.push(arguments)};
             if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
@@ -64,6 +64,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js'));
         
         fbq('init', '891606847169072');
-        fbq('track', 'PageView');
+        fbq('track', 'PageView');*/
     }
 });
