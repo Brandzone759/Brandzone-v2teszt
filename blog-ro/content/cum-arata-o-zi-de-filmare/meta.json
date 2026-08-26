@@ -1,0 +1,53 @@
+{
+  "lang": "ro",
+  "title": "Ce se întâmplă după semnare?",
+  "description": "Șapte pași de la contract până la videoul postat. Ce face agenția, ce trebuie să asigure firma și cum arată o zi de filmare.",
+  "ogDescription": "Șapte pași de la contract până la videoul postat, și cum arată o zi de filmare.",
+  "eyebrow": "Proces",
+  "datePublished": "2026-08-25",
+  "order": 1,
+  "readingTime": "5 minute de citit",
+  "excerpt": "Șapte pași de la contract până la videoul postat. Ce face agenția, ce trebuie să asigure firma și cum arată o zi de filmare.",
+  "highlights": [
+    {
+      "value": "1 oră",
+      "label": "de discuție la început, plus citirea scenariilor."
+    },
+    {
+      "value": "½ zi",
+      "label": "de filmare pe lună, și o scurtă rundă de aprobare."
+    },
+    {
+      "value": "6-12",
+      "label": "videoclipuri ies dintr-o jumătate de zi bine organizată."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Cât durează de la semnare până la primul video?",
+      "a": "De obicei trec 1-2 săptămâni până la prima filmare, datorită elaborării strategiei și a scenariilor. Montajul durează apoi între 3 și 7 zile lucrătoare."
+    },
+    {
+      "q": "Ce trebuie să pregătesc pentru filmare?",
+      "a": "Locația și oamenii. Camerele, lumina și sunetul sunt treaba noastră. Dacă arătăm un utilaj sau un proces, e nevoie de cineva care să ne ajute."
+    },
+    {
+      "q": "Cât durează o zi de filmare?",
+      "a": "O jumătate de zi înseamnă de obicei între 4 și 5 ore, din care ies între 6 și 12 videoclipuri."
+    },
+    {
+      "q": "Ce fac dacă omul nostru vorbește prost?",
+      "a": "Îl ghidăm și o luăm de la capăt. Nimeni nu trebuie să știe textul pe de rost. Dacă cineva nici după mai multe încercări nu se simte bine, poți lua în considerare aducerea unui actor din exterior."
+    },
+    {
+      "q": "Câte runde de corecții sunt?",
+      "a": "Sunt două puncte în care avem nevoie de aprobarea ta: scenariul și videoclipul final. La scenariu se poate schimba aproape orice, la video însă doar subtitrarea, anumite efecte și durata."
+    },
+    {
+      "q": "Postați voi sau trebuie să postăm noi?",
+      "a": "Cum doriți. Dacă postăm noi, atunci și programarea, descrierea și gestionarea comentariilor din primele ore fac parte din serviciul nostru."
+    }
+  ],
+  "ctaTitle": "Cum ar arăta procesul ăsta la voi?",
+  "ctaText": "Scrie-ne și discutăm. Nu începem cu o ofertă, ci cu a vedea dacă are sens în general."
+}

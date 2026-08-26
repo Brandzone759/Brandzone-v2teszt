@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <style>
+        .cover-bub { fill: none; stroke: rgba(255, 255, 255, 0.75); stroke-width: 1.6; transform-origin: center; animation: bubPop 4.5s ease-in-out infinite; }
+        .cover-bub.b2 { animation-delay: 0.7s; }
+        .cover-bub.b3 { animation-delay: 1.4s; }
+        .cover-bub.b4 { animation-delay: 2.1s; }
+
+        @keyframes bubPop {
+            0%, 8% { opacity: 0; transform: translateY(10px) scale(0.9); }
+            20%, 62% { opacity: 1; transform: translateY(0) scale(1); }
+            78%, 100% { opacity: 0; transform: translateY(-8px) scale(0.96); }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .cover-bub { animation: none; opacity: 0.7; }
+        }
+    </style>
+
+    <path class="cover-bub b1" d="M60,60 h96 a10,10 0 0 1 10,10 v34 a10,10 0 0 1 -10,10 h-72 l-16,16 v-16 h-8 a10,10 0 0 1 -10,-10 v-34 a10,10 0 0 1 10,-10 z"/>
+    <path class="cover-bub b2" d="M214,96 h100 a10,10 0 0 1 10,10 v30 a10,10 0 0 1 -10,10 h-76 l-16,15 v-15 h-8 a10,10 0 0 1 -10,-10 v-30 a10,10 0 0 1 10,-10 z"/>
+    <path class="cover-bub b3" d="M92,132 h84 a10,10 0 0 1 10,10 v26 a10,10 0 0 1 -10,10 h-60 l-15,14 v-14 h-9 a10,10 0 0 1 -10,-10 v-26 a10,10 0 0 1 10,-10 z"/>
+    <path class="cover-bub b4" d="M246,26 h70 a10,10 0 0 1 10,10 v24 a10,10 0 0 1 -10,10 h-48 l-14,13 v-13 h-8 a10,10 0 0 1 -10,-10 v-24 a10,10 0 0 1 10,-10 z"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <style>
+        .cover-line { fill: none; stroke: rgba(255, 255, 255, 0.5); stroke-width: 1.2; }
+        .cover-curve { fill: none; stroke: white; stroke-width: 2.4; stroke-linecap: round; stroke-dasharray: 620; stroke-dashoffset: 620; animation: drawCurve 5s ease-in-out infinite; }
+        .cover-dot { fill: white; animation: dotPulse 5s ease-in-out infinite; }
+
+        @keyframes drawCurve {
+            0% { stroke-dashoffset: 620; }
+            45%, 75% { stroke-dashoffset: 0; }
+            100% { stroke-dashoffset: 620; }
+        }
+
+        @keyframes dotPulse {
+            0%, 40% { opacity: 0; }
+            55%, 80% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .cover-curve { animation: none; stroke-dashoffset: 0; }
+            .cover-dot { animation: none; opacity: 1; }
+        }
+    </style>
+
+    <path class="cover-line" d="M0,185 H400 M0,140 H400 M0,95 H400 M0,50 H400"/>
+    <path class="cover-curve" d="M20,195 C90,186 120,155 160,128 S250,95 300,48 L358,22"/>
+    <circle class="cover-dot" cx="358" cy="22" r="6"/>
+</svg>

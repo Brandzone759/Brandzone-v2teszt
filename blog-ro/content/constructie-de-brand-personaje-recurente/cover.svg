@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <style>
+        .cover-ring { fill: none; stroke: rgba(255, 255, 255, 0.55); stroke-width: 1.4; transform-origin: 50% 50%; animation: ringOut 5s ease-out infinite; }
+        .cover-ring.r2 { animation-delay: 1.2s; }
+        .cover-ring.r3 { animation-delay: 2.4s; }
+        .cover-core { fill: white; }
+
+        @keyframes ringOut {
+            0% { transform: scale(0.25); opacity: 0; }
+            18% { opacity: 0.9; }
+            100% { transform: scale(1.9); opacity: 0; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .cover-ring { animation: none; }
+        }
+    </style>
+
+    <circle class="cover-ring r1" cx="200" cy="112" r="46"/>
+    <circle class="cover-ring r2" cx="200" cy="112" r="46"/>
+    <circle class="cover-ring r3" cx="200" cy="112" r="46"/>
+    <circle class="cover-core" cx="200" cy="112" r="7"/>
+</svg>

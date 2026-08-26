@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <style>
+        .cover-line { fill: none; stroke: rgba(255, 255, 255, 0.5); stroke-width: 1.2; }
+        .cover-wave-a, .cover-wave-b { fill: none; stroke-width: 1.6; stroke-linecap: round; }
+        .cover-wave-a { stroke: rgba(255, 255, 255, 0.9); animation: waveShift 7s ease-in-out infinite; }
+        .cover-wave-b { stroke: rgba(255, 255, 255, 0.35); animation: waveShift 7s ease-in-out infinite reverse; }
+
+        @keyframes waveShift {
+            0%, 100% { transform: translateX(0); }
+            50% { transform: translateX(-26px); }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .cover-wave-a, .cover-wave-b { animation: none; }
+        }
+    </style>
+
+    <path class="cover-wave-a" d="M-40,92 Q0,58 40,92 T120,92 T200,92 T280,92 T360,92 T440,92"/>
+    <path class="cover-wave-b" d="M-40,138 Q0,172 40,138 T120,138 T200,138 T280,138 T360,138 T440,138"/>
+    <path class="cover-line" d="M200,20 V205"/>
+</svg>

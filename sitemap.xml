@@ -42,7 +42,7 @@
 <!-- BLOG-URLS-START -->
 <url>
   <loc>https://brandzone.ro/blog/</loc>
-  <lastmod>2026-08-26T15:03:43+00:00</lastmod>
+  <lastmod>2026-08-26T16:00:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -96,4 +96,56 @@
   <priority>0.60</priority>
 </url>
 <!-- BLOG-URLS-END -->
+<!-- BLOG-RO-URLS-START -->
+<url>
+  <loc>https://brandzone.ro/blog-ro/</loc>
+  <lastmod>2026-08-26T16:00:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog-ro/cum-arata-o-zi-de-filmare</loc>
+  <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog-ro/calitate-sau-idee</loc>
+  <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog-ro/nu-orice-firma-are-nevoie-de-tiktok</loc>
+  <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog-ro/se-recunoaste-videoul-tau-fara-logo</loc>
+  <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog-ro/nu-vizionarile-conteaza</loc>
+  <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog-ro/constructie-de-brand-personaje-recurente</loc>
+  <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog-ro/cat-costa-un-video-tiktok-pentru-firme</loc>
+  <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog-ro/cum-obtii-urmaritori-pe-tiktok-ca-firma</loc>
+  <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog-ro/in-ce-limba-sa-postez</loc>
+  <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<!-- BLOG-RO-URLS-END -->
 </urlset>

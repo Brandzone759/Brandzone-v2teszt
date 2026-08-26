@@ -217,7 +217,7 @@ function renderHighlights(highlights) {
   return `        <div class="art-bands">\n${items}\n        </div>\n`;
 }
 
-function renderFaq(faq) {
+function renderFaq(faq, lang) {
   if (!faq.length) return "";
   const items = faq
     .map(
@@ -229,9 +229,10 @@ function renderFaq(faq) {
         `                </div>`
     )
     .join("\n");
+  const title = lang === "ro" ? "Întrebări frecvente" : "Gyakori kérdések";
   return (
     `\n            <div class="art-faq">\n` +
-    `                <h2>Gyakori kérdések</h2>\n\n${items}\n            </div>\n`
+    `                <h2>${title}</h2>\n\n${items}\n            </div>\n`
   );
 }
 
@@ -294,7 +295,7 @@ function renderArticle(template, art) {
     "{{READING_TIME}}": esc(art.readingTime),
     "{{HIGHLIGHTS_HTML}}": renderHighlights(art.highlights),
     "{{ARTICLE_BODY}}": art.body, // author HTML — not escaped
-    "{{FAQ_HTML}}": renderFaq(art.faq),
+    "{{FAQ_HTML}}": renderFaq(art.faq, art.lang),
     "{{CTA_TITLE}}": esc(art.ctaTitle),
     "{{CTA_TEXT}}": art.ctaText, // author HTML — not escaped
   };
