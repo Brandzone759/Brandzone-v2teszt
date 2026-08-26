@@ -1,0 +1,6 @@
+<svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+<circle class="cover-ring r1" cx="200" cy="112" r="46"/>
+<circle class="cover-ring r2" cx="200" cy="112" r="46"/>
+<circle class="cover-ring r3" cx="200" cy="112" r="46"/>
+<circle class="cover-core" cx="200" cy="112" r="7"/>
+</svg>

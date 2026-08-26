@@ -1,0 +1,8 @@
+<svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+<path class="cover-track" d="M92,112 H308"/>
+<circle class="cover-step s1" cx="92" cy="112" r="9"/>
+<circle class="cover-step s2" cx="164" cy="112" r="9"/>
+<circle class="cover-step s3" cx="236" cy="112" r="9"/>
+<circle class="cover-step s4" cx="308" cy="112" r="9"/>
+<circle class="cover-run" cx="92" cy="112" r="4"/>
+</svg>

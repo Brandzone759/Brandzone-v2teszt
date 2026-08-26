@@ -1,0 +1,7 @@
+<svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+<line class="cover-post" x1="200" y1="70" x2="200" y2="176"/>
+<line class="cover-post" x1="168" y1="176" x2="232" y2="176"/>
+<line class="cover-beam" x1="108" y1="70" x2="292" y2="70"/>
+<path class="cover-pan left" d="M84,86 h48 l-12,26 h-24 z"/>
+<path class="cover-pan right" d="M268,86 h48 l-12,26 h-24 z"/>
+</svg>

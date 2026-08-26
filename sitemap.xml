@@ -42,8 +42,38 @@
 <!-- BLOG-URLS-START -->
 <url>
   <loc>https://brandzone.ro/blog/</loc>
-  <lastmod>2026-08-26T10:14:29+00:00</lastmod>
+  <lastmod>2026-08-26T13:57:27+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog/minoseg-vagy-otlet</loc>
+  <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog/mi-tortenik-az-alairas-utan</loc>
+  <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog/nem-minden-cegnek-kell-tiktok</loc>
+  <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog/nem-a-nezettseg-a-lenyeg</loc>
+  <lastmod>2026-08-24T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog/felismerheto-e-a-videod-logo-nelkul</loc>
+  <lastmod>2026-08-24T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog/markaepites-visszatero-karakterek</loc>
+  <lastmod>2026-08-24T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
 </url>
 <url>
   <loc>https://brandzone.ro/blog/miert-nem-mukodik-a-ceges-kozossegi-media</loc>

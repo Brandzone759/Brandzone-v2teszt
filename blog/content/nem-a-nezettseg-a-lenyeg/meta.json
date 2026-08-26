@@ -1,0 +1,45 @@
+{
+  "lang": "hu",
+  "title": "Nem a nézettség a lényeg: miért ér többet egy komment?",
+  "description": "3121 lájkra 607 komment. Miért ér többet egy komment száz megtekintésnél, és hogyan tervezz olyan CTA-t, ami beszélgetést indít?",
+  "ogDescription": "3121 lájkra 607 komment. Miért ér többet egy komment száz megtekintésnél, és hogyan tervezz olyan CTA-t, ami beszélgetést indít?",
+  "eyebrow": "Közösségimédia alapok",
+  "datePublished": "2026-08-24",
+  "order": 1,
+  "readingTime": "4 perc olvasás",
+  "excerpt": "3121 lájkra 607 komment. Miért ér többet egyetlen komment száz megtekintésnél, és hogyan tervezz olyan CTA-t, ami valódi érdeklődőket és beszélgetést indít?",
+  "highlights": [
+    {
+      "value": "607",
+      "label": "komment 3121 lájkra. Tízszerese a szokásos aránynak."
+    },
+    {
+      "value": "882",
+      "label": "mentés. Aki elmenti, később vissza akar rá térni."
+    },
+    {
+      "value": "515",
+      "label": "megosztás. A legmagasabb bizalmi szint."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Többet ér a komment, mint a lájk?",
+      "a": "Igen. A komment több erőfeszítést igényel, ezért az algoritmus is erősebb jelként kezeli, és érdeklődést is jelez."
+    },
+    {
+      "q": "Mennyi komment számít jónak?",
+      "a": "A lájkok 1 és 3 százaléka az átlag. 3 százalék fölött jó, 10 fölött kiemelkedő."
+    },
+    {
+      "q": "Számít-e a negatív komment?",
+      "a": "Az algoritmus szempontjából az is interakció. Üzletileg pedig gyakran hasznosabb, mint a dicséret, mert megmutatja, hol van a kétely."
+    },
+    {
+      "q": "Kell válaszolni minden kommentre?",
+      "a": "Az első órákban mindenképp érdemes, mert ekkor dől el a videó sorsa. Később elegendő a kérdésekre és az érdeklődőkre."
+    }
+  ],
+  "ctaTitle": "Milyen kérdés indítana beszélgetést nálatok?",
+  "ctaText": "Írj nekünk, és átbeszéljük. Nem árajánlattal kezdünk, hanem azzal, hogy megnézzük, van-e egyáltalán értelme."
+}

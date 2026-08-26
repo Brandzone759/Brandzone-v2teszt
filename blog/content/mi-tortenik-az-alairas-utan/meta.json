@@ -1,0 +1,53 @@
+{
+  "lang": "hu",
+  "title": "Mi történik az aláírás után? A videógyártás folyamata",
+  "description": "Hét lépés a szerződéstől a kiposztolt videóig. Mit csinál az ügynökség, mit kell a cégnek biztosítania, és hogy néz ki egy forgatási nap.",
+  "ogDescription": "Hét lépés a szerződéstől a kiposztolt videóig. Mit csinál az ügynökség, mit kell a cégnek biztosítania, és hogy néz ki egy forgatási nap.",
+  "eyebrow": "Folyamat",
+  "datePublished": "2026-08-25",
+  "order": 2,
+  "readingTime": "5 perc olvasás",
+  "excerpt": "A legtöbb cégvezető nem tudja, mennyi ideje megy rá egy videógyártásra. Íme a folyamat lépésről lépésre a szerződéstől a közzétett videókig.",
+  "highlights": [
+    {
+      "value": "1 óra",
+      "label": "beszélgetés induláskor, plusz a forgatókönyvek átolvasása."
+    },
+    {
+      "value": "Fél nap",
+      "label": "forgatás havonta, és egy rövid jóváhagyási kör."
+    },
+    {
+      "value": "6-12",
+      "label": "videó jön ki egy jól szervezett fél napból."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Mennyi idő az aláírástól az első videóig?",
+      "a": "Általában 1 és 2 hét között telik el az első forgatásig, a stratégia és a forgatókönyvek miatt. Utána a vágás jellemzően 3 és 7 munkanap."
+    },
+    {
+      "q": "Mit kell készítenem a forgatásra?",
+      "a": "A helyszínt és az embereket. A technika, a fény és a hang a mi dolgunk. Ha gépet vagy folyamatot mutatunk, ahhoz kell valaki, aki kezeli."
+    },
+    {
+      "q": "Meddig tart egy forgatási nap?",
+      "a": "Egy fél nap jellemzően 4 és 5 óra között, ebből 6 és 12 videó között jön ki."
+    },
+    {
+      "q": "Mi van, ha rosszul beszél a szereplőnk?",
+      "a": "Instruáljuk és újra vesszük. Senkinek nem kell fejből tudnia a szöveget. Ha valaki több próbálkozás után sem érzi jól magát, akkor érdemes külsős szereplőt hozni."
+    },
+    {
+      "q": "Hány javítási kör van?",
+      "a": "Kettő pont van, ahol jóváhagysz: a forgatókönyv és a kész videó. A forgatókönyvnél szinte bármit lehet változtatni, a kész videónál már csak a felirat és a hossz."
+    },
+    {
+      "q": "Ti posztoltok, vagy nekünk kell?",
+      "a": "Ahogy kéritek. Ha mi posztolunk, akkor az időzítés, a leírás és az első órák kommentkezelése is nálunk van."
+    }
+  ],
+  "ctaTitle": "Nálatok hogyan nézne ki ez a folyamat?",
+  "ctaText": "Írj nekünk, és átbeszéljük. Nem árajánlattal kezdünk, hanem azzal, hogy megnézzük, van-e egyáltalán értelme."
+}

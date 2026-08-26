@@ -1,0 +1,48 @@
+{
+  "lang": "hu",
+  "title": "Felismerhető-e a videód logó nélkül?",
+  "description": "Takard le a logót és a cégnevet. Ha így nem lehet megmondani, hogy a tiéd a videó, akkor nem épít márkát. Hat elem, ami felismerhetővé teszi.",
+  "ogDescription": "Takard le a logót és a cégnevet. Ha így nem lehet megmondani, hogy a tiéd a videó, akkor nem épít márkát. Hat elem, ami felismerhetővé teszi.",
+  "eyebrow": "Márkaépítés",
+  "datePublished": "2026-08-24",
+  "readingTime": "4 perc olvasás",
+  "excerpt": "Takard le a logót és a cégnevet: ha így nem lehet megmondani, hogy a tiéd a videó, nem épít márkát. Hat elem, ami azonnal felismerhetővé teszi a tartalmat.",
+  "highlights": [
+    {
+      "value": "1.",
+      "label": "Nyisd meg a céged utolsó öt videóját."
+    },
+    {
+      "value": "2.",
+      "label": "Takard le a logót a sarokban és a fiók nevét."
+    },
+    {
+      "value": "3.",
+      "label": "Meg lehet mondani, hogy ugyanahhoz a céghez tartoznak?"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Elég, ha minden videón rajta van a logó?",
+      "a": "Nem. A néző fél másodperc alatt dönt, és ekkor nem a sarkot nézi. A felismerést a kép közepén lévő elemek adják."
+    },
+    {
+      "q": "Hány állandó elem kell?",
+      "a": "Három már elegendő. Hatnál több már merevvé teszi a tartalmat."
+    },
+    {
+      "q": "Kell hozzá arculati kézikönyv?",
+      "a": "Nem kötelező. Egy egyoldalas összefoglaló a videós elemekről többet ér, mint egy húsz oldalas brand guide, amit senki nem nyit meg."
+    },
+    {
+      "q": "Mi van, ha több termékvonalunk van?",
+      "a": "A szereplő és a felirat maradhat közös, a helyszín és a hangnem pedig termékvonalanként változhat."
+    },
+    {
+      "q": "Mennyi idő alatt lesz felismerhető a márka?",
+      "a": "A felismerés ismétlésből épül, tehát a videók számától függ. Havi 8-12 videónál jellemzően három hónap után kezd összeállni a kép."
+    }
+  ],
+  "ctaTitle": "Miből lehetne nálatok állandó elem?",
+  "ctaText": "Írj nekünk, és átbeszéljük. Nem árajánlattal kezdünk, hanem azzal, hogy megnézzük, van-e egyáltalán értelme."
+}

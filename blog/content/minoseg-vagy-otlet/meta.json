@@ -1,0 +1,24 @@
+{
+  "lang": "hu",
+  "title": "Minőség vagy ötlet: melyik számít jobban?",
+  "description": "Egy drága, tökéletesen bevilágított videó is lehet unalmas, egy telefonos felvétel pedig építheti a márkát. Mitől függ, és mikor melyik kell?",
+  "ogDescription": "Egy drága tökéletesen bevilágított videó vagy egy izgalmas telefonos felvétel?",
+  "eyebrow": "Közösségimédia alapok",
+  "datePublished": "2026-08-25",
+  "order": 1,
+  "readingTime": "4 perc olvasás",
+  "excerpt": "Egy drága, tökéletesen bevilágított videó is lehet unalmas, egy telefonos felvétel pedig építheti a márkát. Mitől függ, és mikor melyik kell?",
+  "highlights": [
+    { "value": "Hang", "label": "Ez az első, amit észrevesz. A rossz hangot hamarabb bünteti, mint a rossz képet." },
+    { "value": "Felirat", "label": "A videók nagy részét hang nélkül nézik." },
+    { "value": "3 mp", "label": "Ennyi idő alatt ki kell derülnie, miről lesz szó." }
+  ],
+  "faq": [
+    { "q": "Elég a telefon egy céges videóhoz?", "a": "Bizonyos tartalomtípusoknál igen, különösen ha az azonnaliság a lényeg. Zajban, bonyolult terméknél vagy hirdetéshez viszont kevés." },
+    { "q": "Számít a felbontás?", "a": "Kevesebbet, mint hinnéd. A néző előbb veszi észre a rossz hangot és a hiányzó feliratot, mint a képminőséget." },
+    { "q": "Nem néz ki igénytelennek egy telefonos videó?", "a": "A szándéktól függ. Ami tudatosan nyers, azt hitelesnek érzik. Ami véletlenül lett rossz, azt igénytelennek." },
+    { "q": "Akkor most költsek vagy ne?", "a": "Előbb az ötletbe és a rendszerbe, utána a technikába. Egy drága videó nem menti meg a rossz ötletet." }
+  ],
+  "ctaTitle": "A BrandZone-nál a forgatókönyv előbb készül el, mint bármilyen technikai döntés. Ha nincs meg, miért állna meg valaki a videónál, akkor nincs értelme kamerát fogni.",
+  "ctaText": "Ha érdekel, nálatok mi lenne a jó arány profi és nyers tartalom között, írj nekünk."
+}
