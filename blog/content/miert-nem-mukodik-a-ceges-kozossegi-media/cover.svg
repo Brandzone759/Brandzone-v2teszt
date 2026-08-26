@@ -1,0 +1,41 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                        <line x1="0" y1="75" x2="400" y2="75" stroke="rgba(255,255,255,0.03)" stroke-width="1"></line>
+                        <line x1="0" y1="150" x2="400" y2="150" stroke="rgba(255,255,255,0.03)" stroke-width="1"></line>
+                        <line x1="0" y1="225" x2="400" y2="225" stroke="rgba(255,255,255,0.03)" stroke-width="1"></line>
+                        <line x1="100" y1="0" x2="100" y2="300" stroke="rgba(255,255,255,0.03)" stroke-width="1"></line>
+                        <line x1="200" y1="0" x2="200" y2="300" stroke="rgba(255,255,255,0.03)" stroke-width="1"></line>
+                        <line x1="300" y1="0" x2="300" y2="300" stroke="rgba(255,255,255,0.03)" stroke-width="1"></line>
+
+                        <rect x="130" y="25" width="140" height="240" rx="22" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"></rect>
+                        <rect x="183" y="30" width="34" height="6" rx="3" fill="rgba(255,255,255,0.1)"></rect>
+                        <rect x="138" y="46" width="124" height="205" rx="6" fill="rgba(0,0,0,0.25)"></rect>
+
+                        <rect x="142" y="50" width="116" height="135" rx="5" fill="rgba(255,255,255,0.05)"></rect>
+
+                        <circle cx="157" cy="65" r="9" fill="rgba(255,255,255,0.18)"></circle>
+                        <circle cx="157" cy="62" r="4" fill="rgba(0,0,0,0.3)"></circle>
+                        <path d="M151,69 Q151,66 157,66 Q163,66 163,69" fill="rgba(0,0,0,0.3)"></path>
+                
+                        <rect x="172" y="60" width="42" height="4.5" rx="2" fill="rgba(255,255,255,0.28)"></rect>
+                        <rect x="172" y="68" width="28" height="3" rx="1.5" fill="rgba(255,255,255,0.12)"></rect>
+
+                        <rect x="142" y="82" width="116" height="72" rx="3" fill="rgba(255,255,255,0.06)"></rect>
+            
+                        <rect x="187" y="103" width="26" height="20" rx="4" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1.2"></rect>
+                        <circle cx="200" cy="113" r="6" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.2"></circle>
+                        <circle cx="193" cy="106" r="1.5" fill="rgba(255,255,255,0.1)"></circle>
+
+                        <line x1="142" y1="162" x2="258" y2="162" stroke="rgba(255,255,255,0.06)" stroke-width="1"></line>
+
+                        <path d="M150,169 Q150,165 154,165 Q158,165 158,169 Q158,165 162,165 Q166,165 166,169 Q166,173 158,177 Q150,173 150,169Z" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.25)" stroke-width="0.8"></path>
+                        <text x="170" y="176" font-family="system-ui,sans-serif" font-size="10" fill="rgba(255,255,255,0.35)" font-weight="500">3</text>
+
+                        <rect x="186" y="165" width="16" height="12" rx="3" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.8"></rect>
+                        <path d="M190,177 L188,181" stroke="rgba(255,255,255,0.15)" stroke-width="0.8" stroke-linecap="round"></path>
+                        <text x="206" y="176" font-family="system-ui,sans-serif" font-size="10" fill="rgba(255,255,255,0.2)" font-weight="500">0</text>
+
+                        <rect x="142" y="190" width="86" height="3.5" rx="1.5" fill="rgba(255,255,255,0.14)"></rect>
+                        <rect x="142" y="197" width="58" height="3" rx="1.5" fill="rgba(255,255,255,0.07)"></rect>
+
+                        <rect x="175" y="237" width="50" height="3" rx="1.5" fill="rgba(255,255,255,0.15)"></rect>
+                    </svg>

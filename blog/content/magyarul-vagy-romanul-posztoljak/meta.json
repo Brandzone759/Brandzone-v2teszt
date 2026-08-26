@@ -1,0 +1,25 @@
+{
+  "lang": "hu",
+  "title": "Magyarul vagy románul posztoljak?",
+  "description": "Erdélyi cégként melyik nyelven érdemes tartalomgyártásba kezdeni? Végigvesszük a két közönség különbségeit és egy döntési szabályt, ami segít választani.",
+  "ogDescription": "Erdélyi cégként melyik nyelven érdemes tartalomgyártásba kezdeni? Egy döntési szabály, ami segít választani.",
+  "eyebrow": "Erdélyi vállalkozásoknak",
+  "datePublished": "2026-07-31",
+  "order": 3,
+  "readingTime": "4 perc olvasás",
+  "excerpt": "Két közönség él egymás mellett, és nem mindegy, melyiknek beszélsz. Mit mond erről az algoritmus, és egy három kérdésből álló döntési szabály.",
+  "highlights": [
+    { "value": "1.", "label": "Honnan jön a bevételed? Helyi magyar vásárlóktól vagy országos partnerektől?" },
+    { "value": "2.", "label": "Kit akarsz felvenni? A toborzás nyelve az a közösség, ahonnan az embereid jönnek." },
+    { "value": "3.", "label": "Ki tud hitelesen megszólalni? Szereplő nélkül ne erőltess egy nyelvet." }
+  ],
+  "faq": [
+    { "q": "Érdemes külön magyar és román oldalt indítani?", "a": "Akkor éri meg, ha mindkét közönségből jön bevétel. Az algoritmus tisztábban kezeli a két külön profilt, cserébe dupla a munka." },
+    { "q": "Elég, ha csak a feliratot fordítom le?", "a": "Rövid távon működik, de a második nyelven jellemzően gyengébb eredményt hoz, mert a szöveg ritmusa és a humor nem fordítható." },
+    { "q": "Melyik nyelven kisebb a verseny?", "a": "Nézd meg, honnan jön a bevétel nagyobb része, és azzal kezdj. A másik nyelv jöhet később, amikor már működik az első." },
+    { "q": "Mi van, ha vegyes a vásárlói köröm?", "a": "Meg, ha van rá ember és idő. A leggyakoribb hiba nem a minőség, hanem hogy két hónap után abbamarad." },
+    { "q": "Számít az akcentus?", "a": "Magában nem. A bizonytalanság számít. Egy hiteles, magabiztos megszólalás akcentussal is működik, egy görcsös viszont akkor sem, ha nyelvtanilag tökéletes." }
+  ],
+  "ctaTitle": "Melyik nyelv hozná nektek a többet?",
+  "ctaText": "Írj nekünk, és átnézzük a vásárlói köröd és a piacod alapján. Nem árajánlattal kezdünk, hanem azzal, hogy megnézzük, van-e egyáltalán értelme."
+}

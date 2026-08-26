@@ -1,0 +1,24 @@
+{
+  "lang": "hu",
+  "title": "Mennyibe kerül egy céges TikTok videó 2026-ban?",
+  "description": "Mennyibe kerül egy céges TikTok videó 2026-ban? Konkrét ársávok, mi van benne az árban, és mitől lesz drágább. Őszinte árkalauz erdélyi cégeknek.",
+  "ogDescription": "Konkrét ársávok, mi van benne az árban, és mitől lesz drágább. Őszinte árkalauz erdélyi cégeknek.",
+  "eyebrow": "Alapok",
+  "datePublished": "2026-07-31",
+  "order": 1,
+  "readingTime": "7 perc olvasás",
+  "excerpt": "Konkrét ársávok, mi van benne az árban, és mitől lesz drágább. Plusz öt kérdés, amit érdemes feltenni, mielőtt bármelyik ügynökséggel aláírsz.",
+  "highlights": [
+    { "value": "300 - 800 lej", "label": "Freelancer, alkalmi megoldás. Videónkénti ár." },
+    { "value": "1500 - 4000 lej", "label": "Havi csomag ügynökségtől, jellemzően 6 és 12 videó között." },
+    { "value": "8000 lejtől", "label": "Full-service, stratégiával és szereplővel, havonta." }
+  ],
+  "faq": [
+    { "q": "Mennyi idő alatt készül el egy videó?", "a": "Az első forgatásig általában 1 és 2 hét között telik el a stratégia és a forgatókönyvek miatt. Utána a vágás jellemzően 3 és 7 munkanap." },
+    { "q": "Hány videó kell havonta, hogy legyen eredménye?", "a": "Rövidvideónál 8 alatti havi mennyiségnél nehéz értékelhető eredményt hozni, mert az algoritmusnak kevés jel jut. A 8 és 12 közötti sáv az, ahol a legtöbb cégnél elindul valami." },
+    { "q": "Kell külön hirdetési keret?", "a": "A gyártás díja és a hirdetési költés két külön dolog. Ha valaki egy összegben adja, kérd külön bontva." },
+    { "q": "Meg lehet oldani házon belül?", "a": "Meg, ha van rá ember és idő. A leggyakoribb hiba nem a minőség, hanem hogy két hónap után abbamarad." }
+  ],
+  "ctaTitle": "Nálad konkrétan mibe kerülne?",
+  "ctaText": "Írj nekünk, és átbeszéljük. Nem árajánlattal kezdünk, hanem azzal, hogy megnézzük, van-e egyáltalán értelme. 24 órán belül visszajelzünk."
+}

@@ -1,0 +1,25 @@
+{
+  "lang": "hu",
+  "title": "Miért nem működik a cégünk közösségi médiája?",
+  "description": "Posztoltok, mégsem történik semmi? Hat gyakori ok, amiért egy céges közösségi média nem hoz eredményt, és mit lehet vele kezdeni.",
+  "ogDescription": "Hat gyakori ok, amiért egy céges közösségi média nem hoz eredményt, és mit lehet vele kezdeni.",
+  "eyebrow": "Közösségimédia alapok",
+  "datePublished": "2026-08-10",
+  "order": 1,
+  "readingTime": "4 perc olvasás",
+  "excerpt": "Posztoltok, mégsem történik semmi? Hat gyakori ok, amiért egy céges jelenlét nem hoz eredményt – és mit lehet tenni mindegyikkel.",
+  "highlights": [
+    { "value": "1.", "label": "Írd le egy mondatban, kinek szól az oldalatok. Ha nem megy, ott a probléma." },
+    { "value": "2.", "label": "Válassz egy arcot és egy formátumot, és csináld három hónapig ugyanúgy." },
+    { "value": "3.", "label": "Irányozz be egy ritmust, amit akkor is tartani tudsz, amikor sok a munka." }
+  ],
+  "faq": [
+    { "q": "Miért nincs elérése a céges Facebook oldalamnak?", "a": "Az organikus elérés évek óta csökken a céges oldalaknál, és a képes posztokat a platform kevesebb embernek mutatja meg, mint a videót. Ehhez jön hozzá, ha rendszertelen a feltöltés." },
+    { "q": "Hány videó kell havonta?", "a": "8 alatt nehéz értékelhető eredményt hozni, mert az algoritmusnak kevés jel jut. A 8 és 12 közötti sáv az, ahol a legtöbb cégnél elindul valami." },
+    { "q": "Mennyi idő alatt lesz eredmény?", "a": "Az első értékelhető jelek 3 és 6 hónap között jönnek. Ez alatt is lehet egy-egy videó sikeres, de rendszerszintű növekedés ritkán." },
+    { "q": "Segít, ha hirdetést tolok rá?", "a": "Gyorsít, de nem old meg stratégiai problémát. Rossz tartalmat hirdetve drágábban kapod meg ugyanazt a gyenge eredményt." },
+    { "q": "Elkéstünk, ha most kezdjük?", "a": "Nem. A legtöbb szakmában, különösen ipari és technikai területeken, még mindig kevesen csinálják következetesen." }
+  ],
+  "ctaTitle": "Nézzük meg együtt, hol akad el nálatok",
+  "ctaText": "Írj nekünk, és átbeszéljük, melyik ok áll a hátterében. Nem árajánlattal kezdünk, hanem azzal, hogy megnézzük, van-e egyáltalán értelme."
+}

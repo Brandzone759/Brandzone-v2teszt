@@ -1,0 +1,6 @@
+<svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                        <rect class="cover-bar b1" x="60" y="62" width="60" height="14" rx="7"/>
+                        <rect class="cover-bar b2" x="60" y="105" width="130" height="14" rx="7"/>
+                        <rect class="cover-bar b3" x="60" y="148" width="210" height="14" rx="7"/>
+                        <path class="cover-line" d="M60,40 V186"/>
+                    </svg>

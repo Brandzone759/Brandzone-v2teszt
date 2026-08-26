@@ -39,4 +39,31 @@
 </url>
 
 
+<!-- BLOG-URLS-START -->
+<url>
+  <loc>https://brandzone.ro/blog/</loc>
+  <lastmod>2026-08-26T10:14:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog/miert-nem-mukodik-a-ceges-kozossegi-media</loc>
+  <lastmod>2026-08-10T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog/mennyibe-kerul-egy-ceges-tiktok-video</loc>
+  <lastmod>2026-07-31T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog/hogyan-szerezz-kovetoket-tiktokon-cegkent</loc>
+  <lastmod>2026-07-31T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://brandzone.ro/blog/magyarul-vagy-romanul-posztoljak</loc>
+  <lastmod>2026-07-31T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<!-- BLOG-URLS-END -->
 </urlset>

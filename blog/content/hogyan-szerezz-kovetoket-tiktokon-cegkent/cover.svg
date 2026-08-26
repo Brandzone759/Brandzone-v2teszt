@@ -1,0 +1,5 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                        <path class="cover-line" d="M0,210 H400 M0,160 H400 M0,110 H400 M0,60 H400"></path>
+                        <path class="cover-curve" d="M20,225 C90,215 120,180 160,150 S250,110 300,55 L360,40"></path>
+                        <circle class="cover-dot" cx="360" cy="40" r="6"></circle>
+                    </svg>
