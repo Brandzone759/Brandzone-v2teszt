@@ -1,5 +1,21 @@
 <svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-<rect class="cover-frame" x="112" y="34" width="176" height="158" rx="14"/>
-<circle class="cover-mark" cx="258" cy="62" r="11"/>
-<rect class="cover-mask" x="232" y="42" width="52" height="40" rx="8"/>
+    <style>
+        .cover-frame { fill: none; stroke: rgba(255, 255, 255, 0.3); stroke-width: 1.4; }
+        .cover-mark { fill: rgba(255, 255, 255, 0.85); }
+        .cover-mask { fill: #060606; stroke: rgba(255, 255, 255, 0.55); stroke-width: 1.2; animation: maskSlide 5.5s ease-in-out infinite; }
+
+        @keyframes maskSlide {
+            0%, 12% { transform: translate(70px, -34px); opacity: 0; }
+            30%, 70% { transform: translate(0, 0); opacity: 1; }
+            88%, 100% { transform: translate(70px, -34px); opacity: 0; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .cover-mask { animation: none; opacity: 1; }
+        }
+    </style>
+
+    <rect class="cover-frame" x="112" y="34" width="176" height="158" rx="14"/>
+    <circle class="cover-mark" cx="258" cy="62" r="11"/>
+    <rect class="cover-mask" x="232" y="42" width="52" height="40" rx="8"/>
 </svg>

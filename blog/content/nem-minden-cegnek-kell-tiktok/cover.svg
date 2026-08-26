@@ -1,4 +1,26 @@
 <svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-<path class="cover-oct" d="M172,50 h56 l40,40 v56 l-40,40 h-56 l-40,-40 v-56 z"/>
-<line class="cover-slash" x1="152" y1="72" x2="248" y2="152"/>
+    <style>
+        .cover-oct { fill: none; stroke: rgba(255, 255, 255, 0.75); stroke-width: 2; stroke-linejoin: round; stroke-dasharray: 640; stroke-dashoffset: 640; animation: octDraw 6s ease-in-out infinite; }
+        .cover-slash { stroke: white; stroke-width: 2.4; stroke-linecap: round; opacity: 0; animation: slashIn 6s ease-in-out infinite; }
+
+        @keyframes octDraw {
+            0% { stroke-dashoffset: 640; }
+            40%, 78% { stroke-dashoffset: 0; }
+            100% { stroke-dashoffset: 640; }
+        }
+
+        @keyframes slashIn {
+            0%, 40% { opacity: 0; }
+            55%, 78% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .cover-oct { animation: none; stroke-dashoffset: 0; }
+            .cover-slash { animation: none; opacity: 1; }
+        }
+    </style>
+
+    <path class="cover-oct" d="M172,50 h56 l40,40 v56 l-40,40 h-56 l-40,-40 v-56 z"/>
+    <line class="cover-slash" x1="152" y1="72" x2="253" y2="160"/>
 </svg>

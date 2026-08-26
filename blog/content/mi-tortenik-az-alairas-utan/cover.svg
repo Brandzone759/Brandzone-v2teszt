@@ -1,8 +1,36 @@
 <svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-<path class="cover-track" d="M92,112 H308"/>
-<circle class="cover-step s1" cx="92" cy="112" r="9"/>
-<circle class="cover-step s2" cx="164" cy="112" r="9"/>
-<circle class="cover-step s3" cx="236" cy="112" r="9"/>
-<circle class="cover-step s4" cx="308" cy="112" r="9"/>
-<circle class="cover-run" cx="92" cy="112" r="4"/>
+    <style>
+        .cover-track { fill: none; stroke: rgba(255, 255, 255, 0.22); stroke-width: 1.4; }
+        .cover-step { fill: none; stroke: rgba(255, 255, 255, 0.75); stroke-width: 1.6; animation: stepGlow 7s ease-in-out infinite; }
+        .cover-step.s2 { animation-delay: 1s; }
+        .cover-step.s3 { animation-delay: 2s; }
+        .cover-step.s4 { animation-delay: 3s; }
+        .cover-run { fill: white; animation: runAlong 7s ease-in-out infinite; }
+
+        @keyframes stepGlow {
+            0%, 10% { fill: transparent; }
+            18%, 62% { fill: white; }
+            72%, 100% { fill: transparent; }
+        }
+
+        @keyframes runAlong {
+            0% { transform: translateX(0); }
+            22% { transform: translateX(72px); }
+            46% { transform: translateX(144px); }
+            70% { transform: translateX(216px); }
+            88%, 100% { transform: translateX(0); }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .cover-step, .cover-run { animation: none; }
+            .cover-step { fill: white; }
+        }
+    </style>
+
+    <path class="cover-track" d="M92,112 H308"/>
+    <circle class="cover-step s1" cx="92" cy="112" r="9"/>
+    <circle class="cover-step s2" cx="164" cy="112" r="9"/>
+    <circle class="cover-step s3" cx="236" cy="112" r="9"/>
+    <circle class="cover-step s4" cx="308" cy="112" r="9"/>
+    <circle class="cover-run" cx="92" cy="112" r="4"/>
 </svg>
