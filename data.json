@@ -65,11 +65,6 @@
           "alt": "Kidlet logo"
         },
         {
-          "url": "https://www.tiktok.com/@ikamper.hu",
-          "img": "partner-logos/ikamper.jpg",
-          "alt": "IKamper logo"
-        },
-        {
           "url": "https://www.tiktok.com/@herboxa",
           "img": "partner-logos/herboxa.jpg",
           "alt": "Herboxa logo"
@@ -87,6 +82,11 @@
         {
           "img": "partner-logos/1785513735074_1785513631860_Chery_logo.png",
           "url": "https://www.tiktok.com/@chery_autotorino",
+          "alt": "Partner"
+        },
+        {
+          "img": "partner-logos/1787922044345_1787922024030_romstal.jpg",
+          "url": "https://www.tiktok.com/@romstal.transilvania",
           "alt": "Partner"
         },
         {
@@ -222,11 +222,6 @@
           "alt": "Kidlet logo"
         },
         {
-          "url": "https://www.tiktok.com/@ikamper.hu",
-          "img": "partner-logos/ikamper.jpg",
-          "alt": "IKamper logo"
-        },
-        {
           "url": "https://www.tiktok.com/@herboxa",
           "img": "partner-logos/herboxa.jpg",
           "alt": "Herboxa logo"
@@ -244,6 +239,11 @@
         {
           "img": "partner-logos/1785513849884_1785513842553_Chery_logo.png",
           "url": "https://www.facebook.com/cheryharghita",
+          "alt": "Partner"
+        },
+        {
+          "img": "partner-logos/1787922046754_1787922011179_romstal.jpg",
+          "url": "https://www.tiktok.com/@romstal.transilvania",
           "alt": "Partner"
         },
         {
@@ -402,6 +402,11 @@
           "url": "https://www.tiktok.com/@diverzum.ro",
           "img": "partner-logos/diverzum.jpg",
           "alt": "Diverzum logo"
+        },
+        {
+          "img": "partner-logos/1787922047891_1787922039930_romstal.jpg",
+          "url": "https://www.tiktok.com/@romstal.transilvania",
+          "alt": "Partner"
         },
         {
           "url": "https://www.tiktok.com/@utilajetransilvane_ro",
