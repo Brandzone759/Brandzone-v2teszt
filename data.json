@@ -187,9 +187,14 @@
           "alt": "Perfekt logo"
         },
         {
-          "url": "https://www.tiktok.com/@ludicus_games",
-          "img": "partner-logos/ludicus.jpg",
-          "alt": "Ludicus Games logo"
+          "img": "partner-logos/1785513849884_1785513842553_Chery_logo.png",
+          "url": "https://www.facebook.com/cheryharghita",
+          "alt": "Partner"
+        },
+        {
+          "img": "partner-logos/1787922046754_1787922011179_romstal.jpg",
+          "url": "https://www.tiktok.com/@romstal.transilvania",
+          "alt": "Partner"
         },
         {
           "url": "https://www.tiktok.com/@revolut",
@@ -199,11 +204,6 @@
         {
           "img": "partner-logos/1776242426457_1776242355116_dacia.jpg",
           "url": "https://www.tiktok.com/@ilovedacia",
-          "alt": "Partner"
-        },
-        {
-          "img": "partner-logos/1776242427171_1776242392598_logo2.jpg",
-          "url": "https://www.instagram.com/poetbypetry/",
           "alt": "Partner"
         },
         {
@@ -217,9 +217,9 @@
           "alt": "Partner"
         },
         {
-          "url": "https://www.tiktok.com/@kidlet.ro_erdely_",
-          "img": "partner-logos/kidlet.jpg",
-          "alt": "Kidlet logo"
+          "img": "partner-logos/1776242427171_1776242392598_logo2.jpg",
+          "url": "https://www.instagram.com/poetbypetry/",
+          "alt": "Partner"
         },
         {
           "url": "https://www.tiktok.com/@herboxa",
@@ -227,24 +227,19 @@
           "alt": "Herboxa logo"
         },
         {
-          "url": "https://www.tiktok.com/@mierttiktok",
-          "img": "partner-logos/miert.png",
-          "alt": "MIERT logo"
-        },
-        {
           "url": "https://www.tiktok.com/@diverzum.ro",
           "img": "partner-logos/diverzum.jpg",
           "alt": "Diverzum logo"
         },
         {
-          "img": "partner-logos/1785513849884_1785513842553_Chery_logo.png",
-          "url": "https://www.facebook.com/cheryharghita",
-          "alt": "Partner"
+          "url": "https://www.tiktok.com/@ludicus_games",
+          "img": "partner-logos/ludicus.jpg",
+          "alt": "Ludicus Games logo"
         },
         {
-          "img": "partner-logos/1787922046754_1787922011179_romstal.jpg",
-          "url": "https://www.tiktok.com/@romstal.transilvania",
-          "alt": "Partner"
+          "url": "https://www.tiktok.com/@mierttiktok",
+          "img": "partner-logos/miert.png",
+          "alt": "MIERT logo"
         },
         {
           "url": "https://www.tiktok.com/@utilajetransilvane_ro",
@@ -255,6 +250,11 @@
           "url": "https://www.facebook.com/vitalityklinika",
           "img": "partner-logos/vitality.jpg",
           "alt": "Vitality Klinika logo"
+        },
+        {
+          "url": "https://www.tiktok.com/@kidlet.ro_erdely_",
+          "img": "partner-logos/kidlet.jpg",
+          "alt": "Kidlet logo"
         },
         {
           "url": "https://www.tiktok.com/@visitparajd",
