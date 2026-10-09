@@ -426,6 +426,11 @@
       },
       "videos": [
         {
+          "bunnyVideoId": "3b698539-897c-4c46-862d-1ddc8c06c5c2",
+          "title": "EURO GAS SYSTEM",
+          "logo": "partner-logos/1791533670458_EURO_GAS_SYSTEM.jpg"
+        },
+        {
           "bunnyVideoId": "3fd21445-fce4-4783-b05e-7133c647b5a3",
           "title": "REVOLUT",
           "logo": "./partner-logos/revolut.jpg"
@@ -439,11 +444,6 @@
           "bunnyVideoId": "cce3b29e-6328-4747-b84c-119051b39c9d",
           "title": "PETRY ESTATE WINERY",
           "logo": "partner-logos/1776243918620_logo2.jpg"
-        },
-        {
-          "bunnyVideoId": "4f3869e2-e010-4fe5-96ed-6b6297dec0cc",
-          "title": "APLUX",
-          "logo": "partner-logos/1776243919391_aplux.png"
         },
         {
           "bunnyVideoId": "9c1bf81e-2477-44b2-bc7e-1e5ca53d1602",
