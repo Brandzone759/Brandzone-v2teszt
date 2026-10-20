@@ -112,9 +112,9 @@
       },
       "videos": [
         {
-          "videoId": "8dc68a7c-7944-4c78-83f6-5599f908ce1e",
-          "title": "SIK GROUP",
-          "logo": "./partner-logos/sik_group.jpg"
+          "videoId": "4a85b30a-ece3-474b-91c8-86d641141ac5",
+          "title": "CHERY HARGHITA",
+          "logo": "./partner-logos/1785513735074_1785513631860_Chery_logo.png"
         },
         {
           "videoId": "6b002b31-0000-49b7-b4fe-1e48afba8569",
@@ -122,19 +122,9 @@
           "logo": "partner-logos/1791487105574_A_ZO_LD_LIGET_SIKEREI.prproj.jpg"
         },
         {
-          "videoId": "6d2c7035-4e56-45c8-8c00-49ecae2eca0a",
-          "title": "TAPERKI",
-          "logo": "./partner-logos/taperki.jpg"
-        },
-        {
-          "videoId": "f76f1aed-9891-4015-842e-427c507f7570",
-          "title": "VITALITY KLINIKA",
-          "logo": "./partner-logos/vitality.jpg"
-        },
-        {
-          "videoId": "4a85b30a-ece3-474b-91c8-86d641141ac5",
-          "title": "CHERY HARGHITA",
-          "logo": "./partner-logos/1785513735074_1785513631860_Chery_logo.png"
+          "videoId": "c14db54e-6e64-4b70-86cd-32f1970de974",
+          "title": "PERFEKT",
+          "logo": "partner-logos/perfekt.jpg"
         },
         {
           "videoId": "81c5b089-337b-4638-a72c-0486963c5e4b",
@@ -142,14 +132,24 @@
           "logo": "partner-logos/1776244050743_540873869_758503246931678_6565289129599768331_n_2.jpg"
         },
         {
-          "videoId": "c14db54e-6e64-4b70-86cd-32f1970de974",
-          "title": "PERFEKT",
-          "logo": "partner-logos/perfekt.jpg"
-        },
-        {
           "videoId": "f3d3833c-1c1a-44f3-97e5-7fbfb70628f3",
           "title": "RIVERSIDE",
           "logo": "./partner-logos/riverside.jpg"
+        },
+        {
+          "videoId": "6d2c7035-4e56-45c8-8c00-49ecae2eca0a",
+          "title": "TAPERKI",
+          "logo": "./partner-logos/taperki.jpg"
+        },
+        {
+          "videoId": "8dc68a7c-7944-4c78-83f6-5599f908ce1e",
+          "title": "SIK GROUP",
+          "logo": "./partner-logos/sik_group.jpg"
+        },
+        {
+          "videoId": "f76f1aed-9891-4015-842e-427c507f7570",
+          "title": "VITALITY KLINIKA",
+          "logo": "./partner-logos/vitality.jpg"
         }
       ],
       "faq": [
