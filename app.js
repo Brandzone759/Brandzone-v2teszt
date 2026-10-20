@@ -1,6 +1,11 @@
+// Referencia videók (mp4) helye: Tigris bucket. Záró perjellel! Ha bucket vagy domain
+// változik, csak ezt az egy sort kell átírni. A posterek a repóban vannak (video-posters/).
+const MEDIA_BASE = "https://brandzone759.github.io/Brandzone-v2teszt/videos/";
+
 document.addEventListener("DOMContentLoaded", async () => {
     await loadData();
     VideoCarousel();
+    VideoPlayback();
     ServicesCarousel();
 
     const logoContainer = document.querySelector('.logo-track');
@@ -110,9 +115,12 @@ function displayVideos(videos) {
     if (!container) return;
     if (!videos) return;
 
-    const bunnyLibraryId = "585259";
     const videosHTML = videos.map(video => {
-    
+        // A fájlnév a videó azonosítója (data.json: bunnyVideoId) – a Control Panel
+        // ezt a mezőt kezeli, ezért a név maradt. Fájlok: <azonosító>.mp4 (MEDIA_BASE)
+        // és video-posters/<azonosító>.jpg (repó)
+        const fileId = encodeURIComponent(video.bunnyVideoId);
+
         return `
         <div class="splide__slide video-slide">
             <div class="video-item card-effects">
@@ -120,19 +128,46 @@ function displayVideos(videos) {
                     <img class="video-logo" src="${video.logo}" alt="Partner logo">
                     <span class="video-partner">${video.title}</span>
                 </div>
-                <iframe 
-                    src="https://iframe.mediadelivery.net/embed/${bunnyLibraryId}/${video.bunnyVideoId}?autoplay=false&preload=false" 
-                    loading="lazy" 
-                    style="border:0; position:absolute; top:0; left:0; height:100%; width:100%;" 
-                    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" 
-                    allowfullscreen="true">
-                </iframe>
+                <video
+                    src="${MEDIA_BASE}${fileId}.mp4"
+                    poster="video-posters/${fileId}.jpg"
+                    aria-label="${video.title}"
+                    preload="none"
+                    controls
+                    playsinline>
+                </video>
             </div>
         </div>
     `;
     }).join('');
-    
+
     container.innerHTML = videosHTML;
+}
+
+function pauseAllVideos(except = null) {
+    document.querySelectorAll('#videoCarousel video').forEach(video => {
+        if (video !== except) video.pause();
+    });
+}
+
+// A play/pause/ended események nem buborékolnak, de capture fázisban az
+// ősön elkaphatók – így a Splide által klónozott slide-okra is működik.
+function VideoPlayback() {
+    const carousel = document.getElementById('videoCarousel');
+    if (!carousel) return;
+
+    const setPlaying = (event, isPlaying) => {
+        if (!(event.target instanceof HTMLVideoElement)) return;
+        event.target.closest('.video-item')?.classList.toggle('playing', isPlaying);
+    };
+
+    carousel.addEventListener('play', event => {
+        if (!(event.target instanceof HTMLVideoElement)) return;
+        pauseAllVideos(event.target);
+        setPlaying(event, true);
+    }, true);
+    carousel.addEventListener('pause', event => setPlaying(event, false), true);
+    carousel.addEventListener('ended', event => setPlaying(event, false), true);
 }
 
 function displayFAQ(faqData) {
@@ -249,6 +284,7 @@ function VideoCarousel() {
             }
         }
     });
+    splide.on('move', () => pauseAllVideos());
     splide.mount();
 }
 

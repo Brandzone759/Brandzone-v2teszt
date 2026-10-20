@@ -827,14 +827,13 @@ div.counter-box {
     font-size: calc(10px + 0.3vw);
 }
 
-.video-holder iframe,
-#videoCarousel iframe {
+#videoCarousel video {
     display: block;
     border-radius: 20px;
-    width: 100% !important;
-    height: 100% !important;
+    width: 100%;
+    height: 100%;
     --webkit-mask-image: -webkit-radial-gradient(white, black);
-    border: none;
+    background-color: black;
     object-fit: cover;
     cursor: pointer;
 }
