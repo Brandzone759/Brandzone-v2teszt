@@ -112,43 +112,43 @@
       },
       "videos": [
         {
+          "videoId": "8dc68a7c-7944-4c78-83f6-5599f908ce1e",
           "title": "SIK GROUP",
-          "bunnyVideoId": "8dc68a7c-7944-4c78-83f6-5599f908ce1e",
           "logo": "./partner-logos/sik_group.jpg"
         },
         {
+          "videoId": "6b002b31-0000-49b7-b4fe-1e48afba8569",
           "title": "ZÖLD LIGET LAKÓPARK",
-          "bunnyVideoId": "6b002b31-0000-49b7-b4fe-1e48afba8569",
           "logo": "partner-logos/1791487105574_A_ZO_LD_LIGET_SIKEREI.prproj.jpg"
         },
         {
+          "videoId": "6d2c7035-4e56-45c8-8c00-49ecae2eca0a",
           "title": "TAPERKI",
-          "bunnyVideoId": "6d2c7035-4e56-45c8-8c00-49ecae2eca0a",
           "logo": "./partner-logos/taperki.jpg"
         },
         {
+          "videoId": "f76f1aed-9891-4015-842e-427c507f7570",
           "title": "VITALITY KLINIKA",
-          "bunnyVideoId": "f76f1aed-9891-4015-842e-427c507f7570",
           "logo": "./partner-logos/vitality.jpg"
         },
         {
+          "videoId": "4a85b30a-ece3-474b-91c8-86d641141ac5",
           "title": "CHERY HARGHITA",
-          "bunnyVideoId": "4a85b30a-ece3-474b-91c8-86d641141ac5",
           "logo": "./partner-logos/1785513735074_1785513631860_Chery_logo.png"
         },
         {
+          "videoId": "81c5b089-337b-4638-a72c-0486963c5e4b",
           "title": "MELINDA INSTAL",
-          "bunnyVideoId": "81c5b089-337b-4638-a72c-0486963c5e4b",
           "logo": "partner-logos/1776244050743_540873869_758503246931678_6565289129599768331_n_2.jpg"
         },
         {
+          "videoId": "c14db54e-6e64-4b70-86cd-32f1970de974",
           "title": "PERFEKT",
-          "bunnyVideoId": "c14db54e-6e64-4b70-86cd-32f1970de974",
           "logo": "partner-logos/perfekt.jpg"
         },
         {
+          "videoId": "f3d3833c-1c1a-44f3-97e5-7fbfb70628f3",
           "title": "RIVERSIDE",
-          "bunnyVideoId": "f3d3833c-1c1a-44f3-97e5-7fbfb70628f3",
           "logo": "./partner-logos/riverside.jpg"
         }
       ],
@@ -269,42 +269,42 @@
       },
       "videos": [
         {
-          "bunnyVideoId": "63497867-54dd-4e76-820c-f3ec26ef4c73",
+          "videoId": "63497867-54dd-4e76-820c-f3ec26ef4c73",
           "title": "ROMSTAL",
           "logo": "partner-logos/1787925730669_romstal.jpg"
         },
         {
-          "bunnyVideoId": "bf365b64-a774-4a64-8624-6e55ba9f1075",
+          "videoId": "bf365b64-a774-4a64-8624-6e55ba9f1075",
           "title": "DACIA",
           "logo": "partner-logos/1776243623257_dacia.jpg"
         },
         {
-          "bunnyVideoId": "cce3b29e-6328-4747-b84c-119051b39c9d",
+          "videoId": "cce3b29e-6328-4747-b84c-119051b39c9d",
           "title": "PETRY ESTATE WINERY",
           "logo": "partner-logos/1776243625196_logo2.jpg"
         },
         {
-          "bunnyVideoId": "2712f3a5-0a84-42c2-bc9c-32b436d5f4d1",
+          "videoId": "2712f3a5-0a84-42c2-bc9c-32b436d5f4d1",
           "title": "CHERY HARGHITA",
           "logo": "partner-logos/1785514600675_Chery_logo.png"
         },
         {
-          "bunnyVideoId": "2bd0c22d-2ef8-4da1-a0a7-6edc69daa297",
+          "videoId": "2bd0c22d-2ef8-4da1-a0a7-6edc69daa297",
           "title": "FRUTTAMAX",
           "logo": "partner-logos/fruttamax.jpg"
         },
         {
-          "bunnyVideoId": "24e8d114-4635-4f1a-9d87-8631945cd4fd",
+          "videoId": "24e8d114-4635-4f1a-9d87-8631945cd4fd",
           "title": "MELINDA INSTAL",
           "logo": "partner-logos/1776179648288_540873869_758503246931678_6565289129599768331_n_2.jpg"
         },
         {
-          "bunnyVideoId": "73fba227-9b65-4d82-9ae1-2243e346ffb0",
+          "videoId": "73fba227-9b65-4d82-9ae1-2243e346ffb0",
           "title": "SIK GROUP",
           "logo": "./partner-logos/sik_group.jpg"
         },
         {
-          "bunnyVideoId": "9c1bf81e-2477-44b2-bc7e-1e5ca53d1602",
+          "videoId": "9c1bf81e-2477-44b2-bc7e-1e5ca53d1602",
           "title": "DIVERZUM",
           "logo": "./partner-logos/diverzum.jpg"
         }
@@ -426,42 +426,42 @@
       },
       "videos": [
         {
-          "bunnyVideoId": "3b698539-897c-4c46-862d-1ddc8c06c5c2",
+          "videoId": "3b698539-897c-4c46-862d-1ddc8c06c5c2",
           "title": "EURO GAS SYSTEM",
           "logo": "partner-logos/1791533670458_EURO_GAS_SYSTEM.jpg"
         },
         {
-          "bunnyVideoId": "2712f3a5-0a84-42c2-bc9c-32b436d5f4d1",
-          "title": "CHERY HARGHITA",
-          "logo": "partner-logos/1785514600675_Chery_logo.png"
+          "videoId": "8f609e15-6edc-4c0a-b4cb-12714d529fce",
+          "title": "REVOLUT",
+          "logo": "partner-logos/1792529985491_REVOLUT.jpg"
         },
         {
-          "bunnyVideoId": "bf365b64-a774-4a64-8624-6e55ba9f1075",
+          "videoId": "bf365b64-a774-4a64-8624-6e55ba9f1075",
           "title": "DACIA",
           "logo": "partner-logos/1776243917652_dacia.jpg"
         },
         {
-          "bunnyVideoId": "cce3b29e-6328-4747-b84c-119051b39c9d",
+          "videoId": "cce3b29e-6328-4747-b84c-119051b39c9d",
           "title": "PETRY ESTATE WINERY",
           "logo": "partner-logos/1776243918620_logo2.jpg"
         },
         {
-          "bunnyVideoId": "9c1bf81e-2477-44b2-bc7e-1e5ca53d1602",
+          "videoId": "9c1bf81e-2477-44b2-bc7e-1e5ca53d1602",
           "title": "DIVERZUM",
           "logo": "./partner-logos/diverzum.jpg"
         },
         {
-          "bunnyVideoId": "2bd0c22d-2ef8-4da1-a0a7-6edc69daa297",
+          "videoId": "2bd0c22d-2ef8-4da1-a0a7-6edc69daa297",
           "title": "FRUTTAMAX",
           "logo": "partner-logos/fruttamax.jpg"
         },
         {
-          "bunnyVideoId": "24e8d114-4635-4f1a-9d87-8631945cd4fd",
+          "videoId": "24e8d114-4635-4f1a-9d87-8631945cd4fd",
           "title": "MELINDA INSTAL",
           "logo": "partner-logos/1776243921182_540873869_758503246931678_6565289129599768331_n_2.jpg"
         },
         {
-          "bunnyVideoId": "73fba227-9b65-4d82-9ae1-2243e346ffb0",
+          "videoId": "73fba227-9b65-4d82-9ae1-2243e346ffb0",
           "title": "SIK GROUP",
           "logo": "partner-logos/1776243922085_sik_logo.jpg"
         }
