@@ -116,10 +116,11 @@ function displayVideos(videos) {
     if (!videos) return;
 
     const videosHTML = videos.map(video => {
-        // A fájlnév a videó azonosítója (data.json: bunnyVideoId) – a Control Panel
-        // ezt a mezőt kezeli, ezért a név maradt. Fájlok: <azonosító>.mp4 (MEDIA_BASE)
-        // és video-posters/<azonosító>.jpg (repó)
-        const fileId = encodeURIComponent(video.bunnyVideoId);
+        // A fájlnév a videó azonosítója (data.json: videoId; a régi adatokban bunnyVideoId).
+        // Fájlok: <azonosító>.mp4 (MEDIA_BASE) és video-posters/<azonosító>.jpg (repó)
+        const id = video.videoId || video.bunnyVideoId;
+        if (!id) return ''; // üres pozíció a Control Panelben
+        const fileId = encodeURIComponent(id);
 
         return `
         <div class="splide__slide video-slide">
